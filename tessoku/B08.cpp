@@ -13,7 +13,7 @@ int main() {
   for (int i = 0; i < n; i++) {
     int x, y;
     cin >> x >> y;
-    map[y - 1][x - 1] = 1;
+    map[y - 1][x - 1]++;
   }
 
   // 二次元総和
@@ -30,7 +30,7 @@ int main() {
   // 縦
   for (int j = 1; j <= w; j++)
     for (int i = 1; i <= h; i++)
-      wa[i][j] = wa[i - 1][j] + wa[i][j];
+      wa[i][j] += wa[i - 1][j];
 
   // クエリ処理
   int q;
