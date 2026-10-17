@@ -64,18 +64,11 @@ int main() {
   iota(I.begin(), I.end(), 0);
   partial_sum(I.begin(), I.end(), I.begin());
 
-  // print_vec(A);
-  // print_vec(S);
-  // print_vec(S2);
-  // print_vec(I);
-
   auto getpartial = [&](const ll i) {
     auto it = upper_bound(I.begin(), I.end(), i) - I.begin() - 1;
     auto sure = S2[it];
     auto left = i - I[it];
     auto partial = S[left];
-
-    // cout << "partial(" << i << ") = " << it << " -> " << sure << " + " << partial << el;
 
     return sure + partial;
   };
