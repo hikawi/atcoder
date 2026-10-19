@@ -25,7 +25,7 @@ template <typename T, int N> using arr = array<T, N>;
 #define all(x)             x.begin(), x.end()
 #define rall(x)            x.rbegin(), x.rend()
 #define el                 '\n'
-#define spa                " "
+#define spa                ' '
 #define Yes                cout << "Yes" << el
 #define No                 cout << "No" << el
 #define YES                cout << "YES" << el
@@ -34,10 +34,8 @@ template <typename T, int N> using arr = array<T, N>;
 #define Equals(a, b)       (fabs((a) - (b)) < eps)
 #define debug(x)           cerr << #x << "=" << x << el
 
-const double pi = 3.141592653589793238;
 const int inf = 1073741823;
 const ll infl = 1LL << 60;
-const ll modint = 998244353;
 const string ABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const string abc = "abcdefghijklmnopqrstuvwxyz";
 
