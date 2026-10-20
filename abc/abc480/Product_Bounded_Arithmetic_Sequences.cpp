@@ -53,4 +53,36 @@ int main() {
   ios::sync_with_stdio(0);
   cin.tie(0);
   cout << setprecision(13);
+
+  ll n;
+  cin >> n;
+  ll c = 0;
+
+  auto calc = [&](ll a, ll len) -> ll {
+    ll l = 0, r = 1e9;
+    while (l < r - 1) {
+      // average?
+      ll m = (l + r) / 2;
+      ll p = n;
+      rep(i, 0, len) p /= a + i * m;
+      if (p)
+        l = m;
+      else
+        r = m;
+    }
+    return l;
+  };
+
+  // n <= 1e18, therefore the min n >= a(a+D)(a+D) >= a^3 >= 1e6
+  for (ll i = 1; i <= 1e6; i++) {
+    ll len = 3;
+    ll prod = n / i / (i + 1) / (i + 2);
+    while (prod) {
+      c += calc(i, len);
+      prod /= (i + len);
+      len++;
+    }
+  }
+
+  cout << c << endl;
 }
