@@ -47,8 +47,40 @@ template <typename T1, typename T2> inline bool chmax(T1 &a, T2 b) {bool compare
 template <typename T1, typename T2> inline bool chmin(T1 &a, T2 b) {bool compare = a > b;if (compare)a = b;return compare;}
 // clang-format on
 
+inline unsigned gcd(unsigned u, unsigned v) {
+  auto shift = __builtin_ctz(u | v);
+  u >>= __builtin_ctz(u);
+  do {
+    v >>= __builtin_ctz(v);
+    if (u > v)
+      swap(u, v);
+  } while ((v -= u));
+  return u << shift;
+}
+
 int main() {
   ios::sync_with_stdio(0);
   cin.tie(0);
   cout << setprecision(13);
+
+  int n, k;
+  cin >> n >> k;
+  vector<int> A(n);
+  rep(i, 0, n) cin >> A[i];
+
+  vector<int> S;
+  for (int i = 1; i <= k; i++) {
+    int f = 1;
+    for (const auto a : A)
+      if (gcd(i, a) != 1) {
+        f = 0;
+        break;
+      }
+    if (f)
+      S.push_back(i);
+  }
+
+  cout << S.size() << el;
+  for (const auto s : S)
+    cout << s << el;
 }
