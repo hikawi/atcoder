@@ -48,39 +48,24 @@ template <typename T1, typename T2> inline bool chmax(T1 &a, T2 b) {bool compare
 template <typename T1, typename T2> inline bool chmin(T1 &a, T2 b) {bool compare = a > b;if (compare)a = b;return compare;}
 // clang-format on
 
-int bluecache[19] = {-1};
+int n, x, y;
+
+ll countblues(int redlvl, ll redc, int bluelvl, ll bluec) {
+  ll sum = 0;
+  if (redlvl >= 2)
+    sum += countblues(redlvl - 1, redc, redlvl, redc * x);
+  if (bluelvl >= 2)
+    sum += countblues(bluelvl - 1, bluec, bluelvl - 1, bluec * y);
+  else
+    sum += bluec;
+  return sum;
+}
 
 int main() {
   ios::sync_with_stdio(0);
   cin.tie(0);
   cout << setprecision(13);
 
-  int n, x, y;
   cin >> n >> x >> y;
-
-  ll c = 0;
-  deque<tuple<int, int, ll>> jewels; // (red/blue 1/0, level, count)
-  jewels.emplace_back(1, n, 1);
-  while (!jewels.empty()) {
-    const auto [red, level, count] = jewels.front();
-    jewels.pop_front();
-    if (count <= 0) {
-      continue;
-    }
-    if (level <= 1) {
-      if (!red)
-        c += count;
-      continue;
-    }
-
-    if (red) {
-      jewels.emplace_back(1, level - 1, count);
-      jewels.emplace_back(0, level, count * x);
-    } else {
-      jewels.emplace_back(1, level - 1, count);
-      jewels.emplace_back(0, level - 1, count * y);
-    }
-  }
-
-  cout << c << el;
+  cout << countblues(n, 1, 1, 0) << el;
 }
