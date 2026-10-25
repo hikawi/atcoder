@@ -2,6 +2,16 @@
 
 自分が今までずっとアルゴリズム一度も考えたことがないので、できないわけがないけれど、うまくいけなくて、ここから自分を成長させたいため、競技プログラミングやってみます。大学入学前には、ある先輩が自分にこう言いました、「開発には数学が必要はないが、開発者になりたいなら数学を避けてはいけない」とて。それに、ほとんどのプログラミングに関する求人は、経験年数はもちろん、技術的なスキルも不可欠だと思います。なので、深さがない仕事をやめ、新しい機会を求めていながら、練習しております。
 
+フォルダー構造:
+
+- `./abc`: AtCoder Beginner Contest. 自分も初心者なんですから、普通に参加しております。
+- `./acl`: AtCoder Libraryをテストしているためのバーチャルコンテストです。
+- `./adt`: AtCoder Daily Training. 過去ABCの問で平日に行うレート対象外のコンテストです。
+- `./awc`: AtCoder Weekly Contest. ADTと同じけど、参加人数も普通より結構多いですけど、まだBETAなんですから、ルールによるとAIを使ってもいいですから、普通に参加していません。
+- `./dp`: Educational DP Contest.
+- `./renshu`: Random Practice Problems.
+- `./tessoku`: Problems in Tessoku Book.
+
 ## コンテスト
 
 レート: [![レートバッジ](https://cp-logo.vercel.app/atcoder/hikawi)]
