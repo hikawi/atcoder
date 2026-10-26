@@ -4,10 +4,13 @@
 
 フォルダー構造:
 
-- `./abc`: AtCoder Beginner Contest. 自分も初心者なんですから、普通に参加しております。
+- `./abc`: AtCoder Beginner
+  Contest. 自分も初心者なんですから、普通に参加しております。
 - `./acl`: AtCoder Libraryをテストしているためのバーチャルコンテストです。
-- `./adt`: AtCoder Daily Training. 過去ABCの問で平日に行うレート対象外のコンテストです。
-- `./awc`: AtCoder Weekly Contest. ADTと同じけど、参加人数も普通より結構多いですけど、まだBETAなんですから、ルールによるとAIを使ってもいいですから、普通に参加していません。
+- `./adt`: AtCoder Daily
+  Training. 過去ABCの問で平日に行うレート対象外のコンテストです。
+- `./awc`: AtCoder Weekly Contest.
+  ADTと同じけど、参加人数も普通より結構多いですけど、まだBETAなんですから、ルールによるとAIを使ってもいいですから、普通に参加していません。
 - `./dp`: Educational DP Contest.
 - `./renshu`: Random Practice Problems.
 - `./tessoku`: Problems in Tessoku Book.
@@ -36,6 +39,7 @@
 
 | コンテスト                                    | 順位      | 得点        |
 | --------------------------------------------- | --------- | ----------- |
+| [ADTA_20261026_1](./adt/adt_all_20261026_1/)  | 17th / 34 | 1250/2700   |
 | [ADTA_20261023_1](./adt/adt_all_20261023_1/)  | 21st / 33 | 850/2575    |
 | [ADTA_20261022_1](./adt/adt_all_20261022_1/)  | 23rd / 56 | 1200/2550   |
 | [ADTA_20261021_2](./adt/adt_all_20261021_2/)  | 17th / 33 | 700/2575    |
