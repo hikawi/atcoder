@@ -23,6 +23,7 @@
 | オフライン処理 | Offline Processing            |
 | セグメント木   | Segment Tree                  |
 | 貪欲方         | Greedy                        |
+| 組み合わせ     | Combinatorics                 |
 
 ## ABC
 
@@ -106,6 +107,12 @@
 | A22 | Sugoroku                    | 1DDP                     |     AC     |  4/9   |          [リンク](./tessoku/a22_sugoroku.cpp)           |
 | A23 | All Free                    | ビットDP                 |     AC     |  5/9   |          [リンク](./tessoku/a23_all_free.cpp)           |
 | A24 | LIS                         | 1DDP                     |     AC     |  5/9   |             [リンク](./tessoku/a24_lis.cpp)             |
+| A25 | Number of Routes            | 1DDP                     |     AC     |  3/9   |      [リンク](./tessoku/a25_number_of_routes.cpp)       |
+| A26 | Prime Check                 | 数学                     |     AC     |  2/9   |         [リンク](./tessoku/a26_prime_check.cpp)         |
+| A27 | Calculate GCD               | 数学                     |     AC     |  2/9   |        [リンク](./tessoku/a27_calculate_gcd.cpp)        |
+| A28 | Blackboard                  | 数学                     |     AC     |  2/9   |         [リンク](./tessoku/a28_blackboard.cpp)          |
+| A29 | Power                       | 数学                     |     AC     |  3/9   |            [リンク](./tessoku/a29_power.cpp)            |
+| A30 | Combination                 | 数学                     |     AC     |  4/9   |         [リンク](./tessoku/a30_combination.cpp)         |
 | B01 | A+B Problem                 | 実装                     |     AC     |   -    |         [リンク](./tessoku/b01_a_b_problem.cpp)         |
 | B02 | Divisor Check               | 数学・全探索             |     AC     |   -    |        [リンク](./tessoku/b02_divisor_check.cpp)        |
 | B03 | Supermarket                 | 全探索                   |     AC     |   -    |         [リンク](./tessoku/b03_supermarket.cpp)         |
@@ -126,4 +133,9 @@
 | B21 | Longest Palindrome          | 2DDP・文字列             |     AC     |   -    |     [リンク](./tessoku/b21_longest_palindrome.cpp)      |
 | B22 | Dungeon 1                   | 1DDP                     |     AC     |   -    |          [リンク](./tessoku/b22_dungeon_1.cpp)          |
 | B23 | Traveling Salesman Problem  | ビットDP                 |     AC     |   -    | [リンク](./tessoku/b23_traveling_salesman_problem.cpp)  |
-| B24 | Many Boxes                  | 1DDP                     |            |   -    |         [リンク](./tessoku/b24_many_boxes.cpp)          |
+| B24 | Many Boxes                  | 1DDP                     |     AC     |   -    |         [リンク](./tessoku/b24_many_boxes.cpp)          |
+| B26 | Output Prime Numbers        | 数学                     |     AC     |   -    |    [リンク](./tessoku/b26_output_prime_numbers.cpp)     |
+| B27 | Calculate LCM               | 数学                     |     AC     |   -    |        [リンク](./tessoku/b27_calculate_lcm.cpp)        |
+| B28 | Fibonacci Easy              | 数学                     |     AC     |   -    |       [リンク](./tessoku/b28_fibonacci_easy.cpp)        |
+| B29 | Power Hard                  | 数学                     |     AC     |   -    |         [リンク](./tessoku/b29_power_hard.cpp)          |
+| B30 | Combination 2               | 組み合わせ               |     AC     |   -    |        [リンク](./tessoku/b30_combination_2.cpp)        |
