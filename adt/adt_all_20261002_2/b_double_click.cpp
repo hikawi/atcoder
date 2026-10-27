@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+  int n, d;
+  cin >> n >> d;
+  int *T = new int[n];
+  for (int i = 0; i < n; i++)
+    cin >> T[i];
+
+  int dbc = -1;
+  for (int i = 0; i < n - 1; i++)
+    if (T[i + 1] - T[i] <= d) {
+      dbc = T[i + 1];
+      break;
+    }
+
+  cout << dbc << endl;
+}
