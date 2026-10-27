@@ -4,17 +4,17 @@
 
 問題表：
 
-| 名前                                           |     配点     | 種類               |
-| ---------------------------------------------- | :----------: | ------------------ |
-| [Weak Beats](./Weak_Beats.cpp)                 |   100/100    | -                  |
-| [Spread](./Spread.cpp)                         |   100/100    | -                  |
-| [1D Pawn](./1_D_Pawn.cpp)                      |   200/200    | マップ             |
-| [Isolated Seat](./Isolated_Seats.cpp)          |   200/200    | -                  |
-| [Calendar Validator](./Calendar_Validator.cpp) |   300/300    | -                  |
-| [±1 Operation 1](./1_Operation_1.cpp)          | Upsolved/300 | 二分探索、算数     |
-| [Draw Your Cards](./Draw_Your_Cards.cpp)       | Upsolved/400 | 二分探索、追加最適 |
-| Average and Median                             |    0/500     | -                  |
-| Usual Color Ball Problems                      |    0/550     | -                  |
+| 名前                                             |     配点     | 種類               |
+| ------------------------------------------------ | :----------: | ------------------ |
+| [Weak Beats](./a_weak_beats.cpp)                 |   100/100    | -                  |
+| [Spread](./b_spread.cpp)                         |   100/100    | -                  |
+| [1D Pawn](./c_1d_pawn.cpp)                       |   200/200    | マップ             |
+| [Isolated Seat](./d_isolated_seats.cpp)          |   200/200    | -                  |
+| [Calendar Validator](./e_calendar_validator.cpp) |   300/300    | -                  |
+| [±1 Operation 1](./f_1_operation_1.cpp)          | Upsolved/300 | 二分探索、算数     |
+| [Draw Your Cards](./g_draw_your_cards.cpp)       | Upsolved/400 | 二分探索、追加最適 |
+| Average and Median                               |    0/500     | -                  |
+| Usual Color Ball Problems                        |    0/550     | -                  |
 
 いうべからぬ簡単な問題:
 

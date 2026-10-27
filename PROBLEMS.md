@@ -43,23 +43,41 @@
 | `abc171c` | One Quadrillion and One Dalmatians   | 数学                   |     UP     |  560   | [リンク](./renshu/abc171c_one_quadrillion_and_one_dalmatians.cpp) |
 | `abc189c` | Mandarin Orange                      | 全探索                 |     UP     |  565   |          [リンク](./renshu/abc189c_mandarin_orange.cpp)           |
 | `abc198c` | Compass Walking                      |                        |            |  413   |          [リンク](./renshu/abc198c_compass_walking.cpp)           |
+| `abc225c` | Calendar Validator                   | 行列                   |     AC     |  326   |    [リンク](./adt/adt_all_20260928_1/e_calendar_validator.cpp)    |
 | `abc230c` | X drawing                            | 行列・数学             |     UP     |  566   |             [リンク](./renshu/abc230c_x_drawing.cpp)              |
 | `abc234e` | Arithmetic Number                    | 二分探索               |     UP     |  899   |         [リンク](./renshu/abc234e_arithmetic_number.cpp)          |
+| `abc237d` | LR Insertion                         | 連結リスト             |     AC     |  544   |       [リンク](./adt/adt_all_20261027_1/g_lr_insertion.cpp)       |
 | `abc240d` | Strange Balls                        | 実装                   |     UP     |  570   |           [リンク](./renshu/abc240d_strange_balls.cpp)            |
+| `abc241b` | Pasta                                | 連想配列               |     AC     |   42   |          [リンク](./adt/adt_all_20261027_1/d_pasta.cpp)           |
+| `abc251a` | Six Character                        | 実装                   |     AC     |   9    |      [リンク](./adt/adt_all_20261027_1/a_six_characters.cpp)      |
+| `abc255c` | ±1 Operation 1                       | 二分探索・数学         |     UP     |  574   |      [リンク](./adt/adt_all_20260928_1/f_1_operation_1.cpp)       |
+| `abc257b` | 1D Pawn                              | 連想配列               |     AC     |   91   |         [リンク](./adt/adt_all_20260928_1/c_1d_pawn.cpp)          |
+| `abc260d` | Draw Your Cards                      | 二分探索・連想配列     |     UP     |  1074  |     [リンク](./adt/adt_all_20260928_1/g_draw_your_cards.cpp)      |
+| `abc265b` | Explore                              | 配列                   |     AC     |  152   |          [リンク](./adt/adt_all_20261001_1/c_explore.py)          |
 | `abc280d` | Factorial and Multiple               | 数学                   |            |  880   |       [リンク](./renshu/abc280d_factorial_and_multiple.cpp)       |
+| `abc282a` | Generalized ABC                      | 実装                   |     AC     |   7    |     [リンク](./adt/adt_all_20261001_1/b_generalized_abc.cpp)      |
 | `abc286c` | Rotate and Palindrome                | 文字列                 |     UP     |  565   |       [リンク](./renshu/abc286c_rotate_and_palindrome.cpp)        |
+| `abc311b` | Vacation Together                    | 配列                   |     AC     |   67   |    [リンク](./adt/adt_all_20261027_1/c_vacation_together.cpp)     |
 | `abc314d` | LOWER                                | オフライン処理         |     UP     |  585   |               [リンク](./renshu/abc314d_lower.cpp)                |
+| `abc323a` | Weak Beats                           | 実装                   |     AC     |   15   |        [リンク](./adt/adt_all_20260928_1/a_weak_beats.cpp)        |
 | `abc324d` | Square Permutation                   | 全探索                 |     UP     |  895   |         [リンク](./renshu/abc324d_square_permutation.cpp)         |
+| `abc329a` | Spread                               | 実装                   |     AC     |   9    |          [リンク](./adt/adt_all_20260928_1/b_spread.cpp)          |
 | `abc356c` | Keys                                 | ビット全探索           |     UP     |  568   |                [リンク](./renshu/abc356c_keys.cpp)                |
 | `abc360a` | A Healthy Breakfast                  | 実装                   |     UP     |   19   |   [リンク](./adt/adt_all_20261026_1/b_a_healthy_breakfast.cpp)    |
 | `abc366c` | Balls and Bag Query                  | 連想配列               |     UP     |  180   |   [リンク](./adt/adt_all_20261026_1/f_balls_and_bag_query.cpp)    |
 | `abc366d` | Cuboid Sum Query                     | 累積和                 |     UP     |  586   |          [リンク](./renshu/abc366d_cuboid_sum_query.cpp)          |
+| `abc370c` | Word Ladder                          | 最短経路・文字列       |     AC     |  228   |       [リンク](./adt/adt_all_20261027_1/f_word_ladder.cpp)        |
 | `abc376c` | Prepare Another Box                  | 二分探索               |     UP     |  366   |   [リンク](./adt/adt_all_20261026_1/e_prepare_another_box.cpp)    |
 | `abc378d` | Count Simple Paths                   | 深さ優先探索・全探索   |     UP     |  587   |         [リンク](./renshu/abc378d_count_simple_paths.cpp)         |
 | `abc381b` | 1122 String                          | 文字列・実装           |     UP     |   52   |       [リンク](./adt/adt_all_20261026_1/c_1122_string.cpp)        |
+| `abc386a` | Full House 2                         | 実装・連想配列         |     AC     |   25   |       [リンク](./adt/adt_all_20261001_1/a_full_house_2.cpp)       |
 | `abc407a` | Approximation                        | 実装                   |     UP     |  587   |      [リンク](./adt/adt_all_20261026_1/a_approximation.cpp)       |
+| `abc417a` | A Substring                          | 実装                   |     AC     |   15   |       [リンク](./adt/adt_all_20261027_1/b_a_substring.cpp)        |
+| `abc426f` | Clearance                            | セグメント木           |            |  1776  |        [リンク](./adt/adt_all_20261027_1/i_clearance.cpp)         |
 | `abc435d` | Reachability Query 2                 | 深さ優先探索           |     UP     |  568   |        [リンク](./renshu/abc435d_reachability_query_2.cpp)        |
 | `abc452b` | Draw Frame                           | 実装                   |     UP     |   25   |        [リンク](./adt/adt_all_20261026_1/d_draw_frame.cpp)        |
+| `abc467c` | Adjacent Sums (easy)                 | アドホック             |     UP     |  608   |    [リンク](./adt/adt_all_20261027_1/e_adjacent_sums_easy.cpp)    |
+| `abc469b` | Isolated Seats                       | 実装                   |     AC     |   35   |      [リンク](./adt/adt_all_20260928_1/d_isolated_seats.cpp)      |
 | `abc471d` | Chargers                             | アドホック             |     UP     |  570   |              [リンク](./renshu/abc471d_chargers.cpp)              |
 | `abc475d` | Alphametic Prime                     | アドホック             |     UP     |  741   |          [リンク](./renshu/abc475d_alphametic_prime.cpp)          |
 | `abc477a` | Traffic Light                        | 実装                   |     AC     |   17   |            [リンク](./abc/abc477/a_traffic_light.cpp)             |
