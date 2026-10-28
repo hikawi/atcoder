@@ -1,29 +1,14 @@
-#include <bits/stdc++.h>
+#include <algorithm>
+#include <ios>
+#include <iostream>
+#include <string>
+#include <vector>
 using namespace std;
 using ll = long long;
 #define rep(i, n) for (ll i = 0; i < n; i++)
 
-ll count(vector<string> &sel, int k) {
-  vector<int> chars(28);
-  for (const string &s : sel) {
-    for (const char c : s) {
-      chars[c - 'a']++;
-    }
-  }
-
-  ll c = 0;
-  rep(i, 28) {
-    if (chars[i] != k) {
-      return -1;
-    }
-    if (chars[i] > 0)
-      c++;
-  }
-  return c;
-}
-
 int main() {
-  ios_base::sync_with_stdio(false);
+  ios_base::sync_with_stdio(0);
   cin.tie(0);
 
   int n, k;
@@ -32,22 +17,23 @@ int main() {
   rep(i, n) cin >> S[i];
 
   ll ans = 0;
-  for (int i = 1; i <= n; i++) {
-    vector<bool> mask(i, true);
-    mask.resize(n, false);
+  for (int i = 1; i < 1 << n; i++) {
+    array<int, 26> C{};
+    int j = 0, cur = i;
+    while (cur) {
+      if (cur % 2)
+        for (auto c : S[j])
+          C[c - 'a']++;
+      cur >>= 1;
+      j++;
+    }
 
-    do {
-      vector<string> sel;
-      sel.reserve(i);
-      rep(j, n) {
-        if (mask[j])
-          sel.push_back(S[j]);
-      }
-
-      ans = max(ans, count(sel, k));
-    } while (prev_permutation(mask.begin(), mask.end()));
+    ll curans = 0;
+    for (auto a : C)
+      if (a == k)
+        curans++;
+    ans = max(ans, curans);
   }
-
   cout << ans << endl;
 
   return 0;

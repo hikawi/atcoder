@@ -105,7 +105,7 @@ int main() {
 
   int a = left();
   reverse(all(L));
-  r = n - r + 1;
+  r = n - r;
   int b = left();
 
   cout << min(a, b) << el;

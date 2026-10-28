@@ -55,33 +55,58 @@ int main() {
   int n;
   cin >> n;
   vector<ll> A(n);
-  map<ll, int> C;
+  umap<ll, int> C;
   rep(i, 0, n) cin >> A[i];
-  ll s = 0;
-  for (auto a : A) {
-    C[a]++;
-    s += a;
-  }
+  sort(all(A));
 
-  vector<ll> yakusuu;
-  for (ll i = 1; i <= sqrt(s); i++) {
-    if (s % i)
-      continue;
-    if (i >= A.back())
-      yakusuu.push_back(i);
-    if (s / i >= A.back())
-      yakusuu.push_back(s / i);
-  }
-  sort(all(yakusuu));
+  bool allbroken = 1;
+  if (n % 2 == 0) {
+    ll v = A[0] + A[n - 1];
+    for (int i = 1; i < n / 2; i++) {
+      if (A[i] + A[n - 1 - i] != v) {
+        allbroken = 0;
+        break;
+      }
+    }
+  } else
+    allbroken = 0;
 
-  for (auto v : yakusuu) {
-    bool ok = 0;
-    if (C.find(v) != C.end())
-      ok = 1;
-    if (C.rbegin()->first + next(C.rbegin())->first == v)
-      ok = 1;
-    if (ok)
-      cout << v << " ";
-  }
+  bool partialbroken = 0;
+  auto check = [&]() {
+    // that means there are intact, while others are brokens
+    int v = A[n - 1], id = -1;
+    for (int i = n - 2; i >= 0; i--) {
+      if (A[i] != v) {
+        id = i;
+        break;
+      }
+    }
+
+    // no broken
+    if (id < 0) {
+      partialbroken = 1;
+      return;
+    }
+
+    bool f = 1;
+    if (id >= 0 && (id + 1) % 2 == 0) {
+      // from 0 -> id inclusive should be able to pair.
+      for (int i = 0; i < (id + 1) / 2; i++) {
+        if (A[i] + A[id - i] != v) {
+          f = 0;
+          break;
+        }
+      }
+    } else
+      f = 0;
+    partialbroken = f;
+  };
+
+  // print_vec(A);
+  check();
+  if (partialbroken)
+    cout << A[n - 1] << " ";
+  if (allbroken)
+    cout << A[0] + A[n - 1];
   cout << el;
 }

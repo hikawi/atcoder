@@ -51,4 +51,27 @@ int main() {
   ios::sync_with_stdio(0);
   cin.tie(0);
   cout << setprecision(13);
+  int n;
+  cin >> n;
+  vector<int> A(n);
+  rep(i, 0, n) cin >> A[i];
+  int m = 998244353;
+
+  // dp[i][j] := i is head, and j is the tail's starting index (0-indexed)
+  vector<vector<int>> dp(10, vector<int>(n + 1));
+  dp[(A[0] + A[1]) % 10][2]++;
+  dp[(A[0] * A[1]) % 10][2]++;
+  for (int j = 2; j < n; j++) {
+    for (int i = 0; i < 10; i++) {
+      if (!dp[i][j])
+        continue;
+      int ta = (i * A[j]) % 10;
+      int tb = (i + A[j]) % 10;
+      dp[ta][j + 1] = (dp[ta][j + 1] + dp[i][j]) % m;
+      dp[tb][j + 1] = (dp[tb][j + 1] + dp[i][j]) % m;
+    }
+  }
+
+  for (int i = 0; i < 10; i++)
+    cout << dp[i][n] << el;
 }

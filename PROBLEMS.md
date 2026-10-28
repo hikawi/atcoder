@@ -54,7 +54,7 @@
 | `abc217a` | Lexicographic Order                  | 実装                   |     AC     |   21   |     [リンク](./adt/adt_all_20261028_2/a_lexicographic_order.cpp)     |
 | `abc217b` | AtCoder Quiz                         | 実装                   |     AC     |   22   |        [リンク](./adt/adt_all_20261006_1/d_atcoder_quiz.cpp)         |
 | `abc218a` | Weather Forecast                     | 実装                   |     AC     |   7    |      [リンク](./adt/adt_all_20261008_2/a_weather_forecast.cpp)       |
-| `abc220d` | FG Operation                         |                        |            |  664   |        [リンク](./adt/adt_all_20261028_2/g_fg_operation.cpp)         |
+| `abc220d` | FG Operation                         | 2DDP                   |     UP     |  664   |        [リンク](./adt/adt_all_20261028_2/g_fg_operation.cpp)         |
 | `abc221b` | typo                                 | 全探索                 |     AC     |   58   |            [リンク](./adt/adt_all_20261002_2/c_typo.cpp)             |
 | `abc224a` | Tires                                | 実装・文字列           |     AC     |   6    |            [リンク](./adt/adt_all_20261008_1/a_tires.cpp)            |
 | `abc225c` | Calendar Validator                   | 行列                   |     AC     |  326   |     [リンク](./adt/adt_all_20260928_1/e_calendar_validator.cpp)      |
@@ -74,7 +74,7 @@
 | `abc241b` | Pasta                                | 連想配列               |     AC     |   42   |            [リンク](./adt/adt_all_20261027_1/d_pasta.cpp)            |
 | `abc244b` | Go Straight and Turn Right           | 実装                   |     AC     |   30   | [リンク](./adt/adt_all_20261022_1/c_go_straight_and_turn_right.cpp)  |
 | `abc249b` | Perfect String                       | 連想配列               |     AC     |   47   |       [リンク](./adt/adt_all_20261009_1/c_perfect_string.cpp)        |
-| `abc249c` | Just K                               | ビット全探索           |            |  528   |           [リンク](./adt/adt_all_20261005_2/f_just_k.cpp)            |
+| `abc249c` | Just K                               | ビット全探索           |     UP     |  528   |           [リンク](./adt/adt_all_20261005_2/f_just_k.cpp)            |
 | `abc249d` | Index Trio                           | 組み合わせ・数学       |     UP     |  983   |         [リンク](./adt/adt_all_20261022_1/g_index_trio.cpp)          |
 | `abc250c` | Adjacent Swaps                       | 実装・連想配列         |     AC     |  517   |       [リンク](./adt/adt_all_20261021_2/f_adjacent_swaps.cpp)        |
 | `abc251a` | Six Character                        | 実装                   |     AC     |   9    |       [リンク](./adt/adt_all_20261027_1/a_six_characters.cpp)        |
@@ -92,7 +92,7 @@
 | `abc267d` | Index x A(Not continuous ver.)       | 2DDP                   |     UP     |  864   |   [リンク](./adt/adt_all_20261008_2/g_index_a_not_continuous.cpp)    |
 | `abc270c` | Simple path                          | グラフ・木構造         |     AC     |  625   |         [リンク](./adt/adt_all_20261019_1/e_simple_path.cpp)         |
 | `abc271b` | Maintain Multiple Sequences          | 配列                   |     AC     |   97   | [リンク](./adt/adt_all_20261013_2/d_maintain_multiple_sequences.cpp) |
-| `abc272d` | Root M Leaper                        | 行列・幅優先探索       |            |  804   |        [リンク](./adt/adt_all_20261001_1/g_root_m_leaper.cpp)        |
+| `abc272d` | Root M Leaper                        | 行列・幅優先探索       |     UP     |  804   |        [リンク](./adt/adt_all_20261001_1/g_root_m_leaper.cpp)        |
 | `abc274b` | Line Sensor                          | 行列                   |     AC     |   48   |         [リンク](./adt/adt_all_20261005_2/d_line_sensor.cpp)         |
 | `abc277b` | Playing Cards Validation             | 実装                   |     AC     |   60   |  [リンク](./adt/adt_all_20261012_1/d_playing_cards_validation.cpp)   |
 | `abc278b` | Misjudge the Time                    | 実装                   |     AC     |  123   |      [リンク](./adt/adt_all_20261012_1/c_misjudge_the_time.cpp)      |
@@ -196,7 +196,7 @@
 | `abc416c` | Concat (X-th)                        | 全探索                 |     AC     |  298   |         [リンク](./adt/adt_all_20261019_1/f_concat_xth.cpp)          |
 | `abc417a` | A Substring                          | 実装                   |     AC     |   15   |         [リンク](./adt/adt_all_20261027_1/b_a_substring.cpp)         |
 | `abc421a` | Misdelivery                          | 連想配列               |     AC     |   14   |        [リンク](./adt/adt_easy_20260925_1/a_misdelivery.cpp)         |
-| `abc423c` | Lock All Doors                       |                        |            |  377   |       [リンク](./adt/adt_all_20261028_2/f_lock_all_doors.cpp)        |
+| `abc423c` | Lock All Doors                       | アドホック             |     UP     |  377   |       [リンク](./adt/adt_all_20261028_2/f_lock_all_doors.cpp)        |
 | `abc425d` | Ulam-Warburton Automation            | 実装                   |     UP     |  882   |  [リンク](./adt/adt_all_20261019_1/g_ulam_warburton_automaton.cpp)   |
 | `abc426a` | OS Versions                          | 実装                   |     AC     |   18   |         [リンク](./adt/adt_all_20261008_1/b_os_versions.cpp)         |
 | `abc426b` | The Odd One Out                      | 実装                   |     AC     |   25   |       [リンク](./adt/adt_all_20261013_2/c_the_odd_one_out.cpp)       |
@@ -212,7 +212,7 @@
 | `abc440b` | Trifecta                             | 配列                   |     AC     |   27   |          [リンク](./adt/adt_easy_20260925_1/d_trifecta.cpp)          |
 | `abc440d` | Forbidden List 2                     |                        |            |  863   |      [リンク](./adt/adt_all_20261016_1/g_forbidden_list_2.cpp)       |
 | `abc441c` | Sake or Water                        | 貪食法                 |     UP     |  406   |        [リンク](./adt/adt_all_20261012_2/e_sake_or_water.cpp)        |
-| `abc444c` | AtCoder Riko                         |                        |            |  582   |        [リンク](./adt/adt_all_20261028_2/e_atcoder_riko.cpp)         |
+| `abc444c` | AtCoder Riko                         | アドホック             |     UP     |  582   |        [リンク](./adt/adt_all_20261028_2/e_atcoder_riko.cpp)         |
 | `abc444d` | Many Repunit Sum                     | 配列・アドホック       |     AC     |  574   |      [リンク](./adt/adt_all_20261012_1/g_many_repunit_sum.cpp)       |
 | `abc448a` | chmin                                | 実装                   |     AC     |   13   |            [リンク](./adt/adt_all_20261016_1/b_chmin.cpp)            |
 | `abc448d` | Integer-duplicated Path              | 深さ優先探索           |     UP     |  638   |   [リンク](./adt/adt_all_20261009_1/g_integer_duplicated_path.cpp)   |
