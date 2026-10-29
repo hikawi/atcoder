@@ -335,6 +335,8 @@
 | A31 | Divisors                    | 数学                     |     AC     |  2/9   |          [リンク](./tessoku/a31_divisors.cpp)           |
 | A32 | Game 1                      | ゲーム                   |     AC     |  3/9   |           [リンク](./tessoku/a32_game_1.cpp)            |
 | A33 | Game 2                      | ゲーム                   |     AC     |  5/9   |           [リンク](./tessoku/a33_game_2.cpp)            |
+| A34 | Game 3                      | ゲーム                   |     AC     |  6/9   |           [リンク](./tessoku/a34_game_3.cpp)            |
+| A35 | Game 4                      | 2DDP                     |     AC     |  6/9   |           [リンク](./tessoku/a34_game_3.cpp)            |
 | B01 | A+B Problem                 | 実装                     |     AC     |   -    |         [リンク](./tessoku/b01_a_b_problem.cpp)         |
 | B02 | Divisor Check               | 数学・全探索             |     AC     |   -    |        [リンク](./tessoku/b02_divisor_check.cpp)        |
 | B03 | Supermarket                 | 全探索                   |     AC     |   -    |         [リンク](./tessoku/b03_supermarket.cpp)         |
@@ -364,6 +366,7 @@
 | B31 | Divisors Hard               | 数学                     |     AC     |   -    |        [リンク](./tessoku/b31_divisors_hard.cpp)        |
 | B32 | Game 5                      | ゲーム                   |     AC     |   -    |           [リンク](./tessoku/b32_game_5.cpp)            |
 | B33 | Game 6                      | ゲーム                   |     AC     |   -    |         [リンク](./tessoku/b33_game_6.cpp.cpp)          |
+| B34 | Game 7                      | ゲーム                   |     AC     |   -    |           [リンク](./tessoku/b34_game_7.cpp)            |
 
 ## Others
 
