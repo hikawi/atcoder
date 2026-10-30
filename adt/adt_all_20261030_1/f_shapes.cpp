@@ -51,4 +51,68 @@ int main() {
   ios::sync_with_stdio(0);
   cin.tie(0);
   cout << setprecision(13);
+  int n;
+  cin >> n;
+  vector<string> S(n), T(n);
+  rep(i, 0, n) cin >> S[i];
+  rep(i, 0, n) cin >> T[i];
+
+  bool f = 0;
+
+  auto rotate = [&]() {
+    vector<string> T(n, string(n, ' '));
+    for (int i = 0; i < n; i++)
+      for (int j = 0; j < n; j++)
+        T[i][j] = S[j][i];
+    for (auto &s : T)
+      reverse(all(s));
+    S.swap(T);
+  };
+
+  auto consolidate = [&](vector<string> &V) {
+    int tx = n, ty = n;
+    for (int y = 0; y < n; y++)
+      for (int x = 0; x < n; x++)
+        if (V[y][x] == '#') {
+          chmin(tx, x);
+          chmin(ty, y);
+        }
+
+    vector<pair<int, int>> S;
+    for (int y = 0; y < n; y++)
+      for (int x = 0; x < n; x++)
+        if (V[y][x] == '#') {
+          int dx = x - tx, dy = y - ty;
+          S.emplace_back(dx, dy);
+        }
+    sort(all(S));
+    return S;
+  };
+
+  auto ct = consolidate(T);
+
+  auto check = [&]() {
+    // consolidate S into a centroid center
+    auto cs = consolidate(S);
+    if (cs.size() != ct.size())
+      return false;
+    for (int i = 0; i < cs.size(); i++) {
+      if (cs[i] != ct[i])
+        return false;
+    }
+    return true;
+  };
+
+  for (int i = 0; i < 4; i++) {
+    if (check()) {
+      f = 1;
+      break;
+    }
+    rotate();
+  }
+
+  if (f)
+    Yes;
+  else
+    No;
 }

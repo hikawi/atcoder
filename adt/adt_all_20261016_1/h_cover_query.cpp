@@ -2,6 +2,7 @@
 #include <array>
 #include <iomanip>
 #include <iostream>
+#include <iterator>
 #include <map>
 #include <ranges>
 #include <set>
@@ -87,49 +88,6 @@ template <typename T1, typename T2> inline bool chmax(T1 &a, T2 b) {bool compare
 template <typename T1, typename T2> inline bool chmin(T1 &a, T2 b) {bool compare = a > b;if (compare)a = b;return compare;}
 // clang-format on
 
-vector<ll> T;  // tree nodes val, 1-index
-vector<int> L; // lazy, 1-index
-
-void push(ll v, ll l, ll r) {
-  if (!L[v])
-    return;
-
-  T[v] = L[v] * (r - l + 1); // ??? black magic
-  if (l != r) {              // not leaf
-    L[2 * v] = L[v];         // black magic propagation
-    L[2 * v + 1] = L[v];
-  }
-  L[v] = 0;
-}
-
-void update(ll v, ll l, ll r, ll ul, ll ur, int val) {
-  push(v, l, r);
-  if (l > ur || r < ul) // out
-    return;
-  if (l >= ul && r <= ur) { // in
-    L[v] = val;
-    push(v, l, r);
-    return;
-  }
-
-  // overlap
-  ll m = (l + r) / 2;
-  update(2 * v, l, m, ul, ur, val);
-  update(2 * v + 1, m + 1, r, ul, ur, val);
-  T[v] = T[2 * v] + T[2 * v + 1];
-}
-
-ll query(ll v, ll l, ll r, ll ul, ll ur) {
-  push(v, l, r);
-  if (l > ur || r < ul)
-    return 0;
-  if (l >= ul && r <= ur)
-    return T[v];
-
-  ll m = (l + r) / 2;
-  return query(2 * v, l, m, ul, ur) + query(2 * v + 1, m + 1, r, ul, ur);
-}
-
 int main() {
   ios::sync_with_stdio(0);
   cin.tie(0);
@@ -137,14 +95,31 @@ int main() {
 
   ll n, q;
   cin >> n >> q;
-  T = vector<ll>(4 * n + 1, 0);
-  L = vector<int>(4 * n + 1, 0);
+  set<pll> ranges; // (start, end)
+
+  auto upd = [&](ll l, ll r) {
+    auto it = ranges.lower_bound(pair(l - 1, r));
+    // step back if it's not begin, and the previous interval overlaps?
+    if (it != ranges.begin()) {
+      auto p = prev(it);
+      if (p->second + 1 >= l)
+        it = p;
+    }
+    while (it != ranges.end() && it->first <= r + 1) {
+      l = min(it->first, l);
+      r = max(it->second, r);
+      it = ranges.erase(it);
+    }
+    ranges.emplace(l, r);
+  };
 
   rep(i, 0, q) {
     ll l, r;
     cin >> l >> r;
-
-    update(1, 0, n - 1, l, r, 1);
-    cout << n - query(1, 0, n - 1, 0, n - 1) << el;
+    upd(l, r);
+    ll c = n;
+    for (auto r : ranges)
+      c -= (r.second - r.first + 1);
+    cout << c << endl;
   }
 }

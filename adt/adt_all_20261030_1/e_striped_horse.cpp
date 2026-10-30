@@ -50,13 +50,35 @@ template <typename T1, typename T2> inline bool chmin(T1 &a, T2 b) {bool compare
 void solve() {
   int n, w;
   cin >> n >> w;
-  vector<ll> C(n), R(n);
-  rep(i, 0, n) {
-    cin >> C[i];
-    R[i] = ((i + 4) % (2 * w)) < w;
+  vector<ll> C(n);
+  rep(i, 0, n) cin >> C[i];
+
+  ll ans = 0;
+  ll cur = 0;
+  for (int i = w; i < n; i += 2 * w)
+    for (int j = i; j < n && j < i + w; j++)
+      cur += C[j];
+
+  // W回で塗るブロックを左から追加
+  ans = cur;
+  for (int i = 0; i < w; i++) {
+    for (int j = i; j < n; j += 2 * w)
+      cur += C[j];
+    for (int j = i + w; j < n; j += 2 * w)
+      cur -= C[j];
+    chmin(ans, cur);
   }
 
-  print_vec(R);
+  // W-1回で塗らないブロックを左から追加
+  for (int i = 0; i < w - 1; i++) {
+    for (int j = i; j < n; j += 2 * w)
+      cur -= C[j];
+    for (int j = i + w; j < n; j += 2 * w)
+      cur += C[j];
+    chmin(ans, cur);
+  }
+
+  cout << ans << endl;
 }
 
 int main() {
