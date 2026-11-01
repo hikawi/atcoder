@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+  int n;
+  string s;
+  cin >> n >> s;
+  for (int i = 0; i < n - 2; i++) {
+    if (s[i] == s[i + 1] && s[i + 1] == s[i + 2]) {
+      cout << "Yes\n";
+      return 0;
+    }
+  }
+  cout << "No\n";
+}

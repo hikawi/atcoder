@@ -365,6 +365,11 @@
 | A38 | Black Company 1             | 考察                     |     AC     |  3/9   |       [リンク](./tessoku/a38_black_company_1.cpp)       |
 | A39 | Interval Scheduling         | 貪欲法                   |     AC     |  3/9   |     [リンク](./tessoku/a39_interval_scheduling.cpp)     |
 | A40 | Triangle                    | 組み合わせ               |     AC     |  3/9   |          [リンク](./tessoku/a40_triangle.cpp)           |
+| A41 | Tile Coloring               | 考察                     |     AC     |  3/9   |        [リンク](./tessoku/a41_tile_coloring.cpp)        |
+| A42 | Soccer                      | 全探索                   |     AC     |  4/9   |           [リンク](./tessoku/a42_soccer.cpp)            |
+| A43 | Travel 3                    | 考察                     |     AC     |  4/9   |          [リンク](./tessoku/a43_travel_3.cpp)           |
+| A44 | Change and Reverse          | クエリ処理・配列         |     AC     |  3/9   |     [リンク](./tessoku/a44_change_and_reverse.cpp)      |
+| A45 | Card Elimination            | 考察                     |     AC     |  5/9   |      [リンク](./tessoku/a45_card_elimination.cpp)       |
 | B01 | A+B Problem                 | 実装                     |     AC     |   -    |         [リンク](./tessoku/b01_a_b_problem.cpp)         |
 | B02 | Divisor Check               | 数学・全探索             |     AC     |   -    |        [リンク](./tessoku/b02_divisor_check.cpp)        |
 | B03 | Supermarket                 | 全探索                   |     AC     |   -    |         [リンク](./tessoku/b03_supermarket.cpp)         |
@@ -400,6 +405,11 @@
 | B38 | Heights of Grass            | 考察                     |     AC     |   -    |      [リンク](./tessoku/b38_heights_of_grass.cpp)       |
 | B39 | Taro's Job (Easy)           | 貪欲法                   |     AC     |   -    |          [リンク](./tessoku/b39_taros_job.cpp)          |
 | B40 | Divide by 100               | 組み合わせ               |     AC     |   -    |        [リンク](./tessoku/b40_divide_by_100.cpp)        |
+| B41 | Reverse of Euclid           | 考察                     |     AC     |   -    |      [リンク](./tessoku/b41_reverse_of_euclid.cpp)      |
+| B42 | Two Faced Cards             | 全探索                   |     AC     |   -    |       [リンク](./tessoku/b42_two_faced_cards.cpp)       |
+| B43 | Quiz Contest                | 考察                     |     AC     |   -    |        [リンク](./tessoku/b43_quiz_contest.cpp)         |
+| B44 | Grid Operations             | クエリ処理・行列         |     AC     |   -    |       [リンク](./tessoku/b44_grid_operations.cpp)       |
+| B45 | Blackboard 2                | 考察                     |     AC     |   -    |        [リンク](./tessoku/b45_blackboard_2.cpp)         |
 
 ## Others
 
