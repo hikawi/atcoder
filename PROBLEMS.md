@@ -22,7 +22,7 @@
 | 考察           | AdHoc / Observation           |
 | オフライン処理 | Offline Processing            |
 | セグメント木   | Segment Tree                  |
-| 貪欲方         | Greedy                        |
+| 貪欲法         | Greedy                        |
 | 組み合わせ     | Combinatorics                 |
 | 数学           | Maths Theory                  |
 | 幾何学         | Geometric Theory              |
@@ -224,7 +224,7 @@
 | `abc440b` | Trifecta                             | 配列                   |     AC     |   27   |           [リンク](./adt/adt_easy_20260925_1/d_trifecta.cpp)            |
 | `abc440c` | Striped Horse                        | 考察                   |     UP     |  631   |         [リンク](./adt/adt_all_20261030_1/e_striped_horse.cpp)          |
 | `abc440d` | Forbidden List 2                     |                        |            |  863   |        [リンク](./adt/adt_all_20261016_1/g_forbidden_list_2.cpp)        |
-| `abc441c` | Sake or Water                        | 貪食法                 |     UP     |  406   |         [リンク](./adt/adt_all_20261012_2/e_sake_or_water.cpp)          |
+| `abc441c` | Sake or Water                        | 貪欲法                 |     UP     |  406   |         [リンク](./adt/adt_all_20261012_2/e_sake_or_water.cpp)          |
 | `abc444c` | AtCoder Riko                         | 考察                   |     UP     |  582   |          [リンク](./adt/adt_all_20261028_2/e_atcoder_riko.cpp)          |
 | `abc444d` | Many Repunit Sum                     | 配列・考察             |     AC     |  574   |        [リンク](./adt/adt_all_20261012_1/g_many_repunit_sum.cpp)        |
 | `abc448a` | chmin                                | 実装                   |     AC     |   13   |             [リンク](./adt/adt_all_20261016_1/b_chmin.cpp)              |
@@ -277,6 +277,11 @@
 | `abc481c` | Bank Accounts                        | 連想配列               |     AC     |   78   |               [リンク](./abc/abc481/c_bank_accounts.cpp)                |
 | `abc481d` | Autopilot                            | 最短経路               |     AC     |  581   |                 [リンク](./abc/abc481/d_autopilot.cpp)                  |
 | `abc481e` | Most Brilliant Starry Sky            |                        |            |  1326  |         [リンク](./abc/abc481/e_most_brilliant_starry_sky.cpp)          |
+| `abc482a` | Nigiri                               | 実装                   |     AC     |   12   |                   [リンク](./abc/abc482/a_nigiri.cpp)                   |
+| `abc482b` | Blank Bingo                          | 全探索                 |     AC     |   65   |                [リンク](./abc/abc482/b_blank_bingo.cpp)                 |
+| `abc482c` | Band Count                           | 二分探索               |     AC     |  486   |                 [リンク](./abc/abc482/c_band_count.cpp)                 |
+| `abc482d` | Wannabe Zombie                       | 考察                   |     AC     |  766   |               [リンク](./abc/abc482/d_wannabe_zombie.cpp)               |
+| `abc482e` | Diameter Endpoint Colors             | 木構造・組み合わせ     |            |  1531  |          [リンク](./abc/abc482/e_diameter_endpoint_colors.cpp)          |
 
 ## ARC
 
@@ -358,6 +363,8 @@
 | A36 | Travel                      | 考察                     |     AC     |  2/9   |           [リンク](./tessoku/a36_travel.cpp)            |
 | A37 | Travel 2                    | 考察                     |     AC     |  2/9   |          [リンク](./tessoku/a37_travel_2.cpp)           |
 | A38 | Black Company 1             | 考察                     |     AC     |  3/9   |       [リンク](./tessoku/a38_black_company_1.cpp)       |
+| A39 | Interval Scheduling         | 貪欲法                   |     AC     |  3/9   |     [リンク](./tessoku/a39_interval_scheduling.cpp)     |
+| A40 | Triangle                    | 組み合わせ               |     AC     |  3/9   |          [リンク](./tessoku/a40_triangle.cpp)           |
 | B01 | A+B Problem                 | 実装                     |     AC     |   -    |         [リンク](./tessoku/b01_a_b_problem.cpp)         |
 | B02 | Divisor Check               | 数学・全探索             |     AC     |   -    |        [リンク](./tessoku/b02_divisor_check.cpp)        |
 | B03 | Supermarket                 | 全探索                   |     AC     |   -    |         [リンク](./tessoku/b03_supermarket.cpp)         |
@@ -390,6 +397,9 @@
 | B34 | Game 7                      | ゲーム                   |     AC     |   -    |           [リンク](./tessoku/b34_game_7.cpp)            |
 | B36 | Switching Lights            | 考察                     |     AC     |   -    |      [リンク](./tessoku/b36_switching_lights.cpp)       |
 | B37 | Sum of Digits               | 考察                     |     AC     |   -    |        [リンク](./tessoku/b37_sum_of_digits.cpp)        |
+| B38 | Heights of Grass            | 考察                     |     AC     |   -    |      [リンク](./tessoku/b38_heights_of_grass.cpp)       |
+| B39 | Taro's Job (Easy)           | 貪欲法                   |     AC     |   -    |          [リンク](./tessoku/b39_taros_job.cpp)          |
+| B40 | Divide by 100               | 組み合わせ               |     AC     |   -    |        [リンク](./tessoku/b40_divide_by_100.cpp)        |
 
 ## Others
 
