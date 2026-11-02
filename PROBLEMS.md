@@ -373,6 +373,12 @@
 | A46 | Heuristic 1                 | -                        |     AC     |  3/9   |         [リンク](./tessoku/a46_heuristic_1.cpp)         |
 | A49 | Heuristic 2                 | -                        |            |  6/9   |                                                         |
 | A50 | 山型足し算                  | -                        |            |  6/9   |                                                         |
+| A51 | Stack                       | データ構造               |            |  2/9   |            [リンク](./tessoku/a51_stack.cpp)            |
+| A52 | Queue                       | データ構造               |            |  2/9   |            [リンク](./tessoku/a52_queue.cpp)            |
+| A53 | Priority Queue              | データ構造               |            |  2/9   |       [リンク](./tessoku/a53_priority_queue.cpp)        |
+| A54 | Map                         | 連想配列                 |            |  2/9   |             [リンク](./tessoku/a54_map.cpp)             |
+| A55 | Set                         | データ構造               |            |  4/9   |             [リンク](./tessoku/a55_set.cpp)             |
+| A56 | String Hash                 | 文字列                   |            |  5/9   |         [リンク](./tessoku/a56_string_hash.cpp)         |
 | B01 | A+B Problem                 | 実装                     |     AC     |   -    |         [リンク](./tessoku/b01_a_b_problem.cpp)         |
 | B02 | Divisor Check               | 数学・全探索             |     AC     |   -    |        [リンク](./tessoku/b02_divisor_check.cpp)        |
 | B03 | Supermarket                 | 全探索                   |     AC     |   -    |         [リンク](./tessoku/b03_supermarket.cpp)         |
@@ -413,6 +419,12 @@
 | B43 | Quiz Contest                | 考察                     |     AC     |   -    |        [リンク](./tessoku/b43_quiz_contest.cpp)         |
 | B44 | Grid Operations             | クエリ処理・行列         |     AC     |   -    |       [リンク](./tessoku/b44_grid_operations.cpp)       |
 | B45 | Blackboard 2                | 考察                     |     AC     |   -    |        [リンク](./tessoku/b45_blackboard_2.cpp)         |
+| B51 | Bracket                     | データ構造               |     AC     |   -    |           [リンク](./tessoku/b51_bracket.cpp)           |
+| B52 | Ball Simulation             | データ構造               |     AC     |   -    |       [リンク](./tessoku/b52_ball_simulation.cpp)       |
+| B53 | Taro's Job (Hard)           | データ構造               |     AC     |   -    |          [リンク](./tessoku/b53_taros_job.cpp)          |
+| B54 | Counting Same Values        | 連想配列                 |     AC     |   -    |    [リンク](./tessoku/b54_counting_same_values.cpp)     |
+| B55 | Difference                  | データ構造               |     AC     |   -    |         [リンク](./tessoku/b55_difference.cpp)          |
+| B56 | Palindrome Queries          | 文字列                   |     AC     |   -    |     [リンク](./tessoku/b56_palindrome_queries.cpp)      |
 
 ## Others
 
