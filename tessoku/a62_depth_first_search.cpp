@@ -51,16 +51,16 @@ ll moddiv(ll a, ll b, ll m) {return (a * modpow(b, m - 2, m)) % m;}
 
 vector<vector<int>> adj;
 vector<int> V;
-int c;
+int w;
 
-void dfs(int v) {
+void depth(int v) {
   if (V[v])
     return;
-  c--;
+  w--;
   V[v] = 1;
   for (auto n : adj[v])
     if (!V[n])
-      dfs(n);
+      depth(n);
 }
 
 int main() {
@@ -70,7 +70,7 @@ int main() {
 
   int n, m;
   cin >> n >> m;
-  c = n;
+  w = n;
   adj = vector<vector<int>>(n + 1);
   V = vector<int>(n + 1);
   rep(i, 0, m) {
@@ -79,9 +79,9 @@ int main() {
     adj[u].push_back(v);
     adj[v].push_back(u);
   }
-  dfs(1);
+  depth(1);
 
-  if (c)
+  if (w)
     cout << "The graph is not connected.\n";
   else
     cout << "The graph is connected.\n";

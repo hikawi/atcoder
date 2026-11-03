@@ -56,7 +56,7 @@ deque<int> path;
 int n, m;
 bool found = 0;
 
-void dfs(int v) {
+void depth(int v) {
   if (found || V[v])
     return;
   V[v] = 1;
@@ -68,7 +68,7 @@ void dfs(int v) {
 
   for (auto n : adj[v])
     if (!V[n])
-      dfs(n);
+      depth(n);
   if (!found)
     path.pop_back();
 }
@@ -87,7 +87,7 @@ int main() {
     adj[v].push_back(u);
   }
 
-  dfs(1);
+  depth(1);
 
   for (auto a : path)
     cout << a << " ";

@@ -111,6 +111,7 @@
 | `abc282c` | String Delimiter                     | 文字列                 |     AC     |  104   |        [リンク](./adt/adt_all_20261016_1/f_string_delimiter.cpp)        |
 | `abc284b` | Multi Test Cases                     | 実装                   |     AC     |   14   |        [リンク](./adt/adt_all_20261005_2/c_multi_test_cases.cpp)        |
 | `abc285a` | Edge Checker 2                       | 考察                   |     AC     |   11   |         [リンク](./adt/adt_all_20261021_2/a_edge_checker_2.cpp)         |
+| `abc286b` | Cat                                  | 実装・文字列           |     AC     |   32   |              [リンク](./adt/adt_all_20261103_1/c_cat.cpp)               |
 | `abc286c` | Rotate and Palindrome                | 文字列                 |     UP     |  565   |          [リンク](./renshu/abc286c_rotate_and_palindrome.cpp)           |
 | `abc288a` | Many A+B Problems                    | 実装                   |     AC     |   6    |       [リンク](./adt/adt_all_20261005_2/b_many_a_b_problems.cpp)        |
 | `abc289b` | レ                                   | 配列                   |     AC     |  225   |               [リンク](./adt/adt_all_20261001_2/d_レ.py)                |
@@ -121,6 +122,7 @@
 | `abc297c` | PC on the Table                      | 行列・実装             |     AC     |   96   |        [リンク](./adt/adt_all_20261006_2/e_pc_on_the_table.cpp)         |
 | `abc298c` | Cards Query Problem                  | 連想配列               |     AC     |  448   |      [リンク](./adt/adt_all_20261002_2/f_cards_query_problem.cpp)       |
 | `abc299c` | Dango                                | 文字列                 |     AC     |  191   |             [リンク](./adt/adt_all_20261023_1/e_dango.cpp)              |
+| `abc303a` | Similar String                       | 実装                   |     AC     |   22   |         [リンク](./adt/adt_all_20261103_1/a_similar_string.cpp)         |
 | `abc304a` | First Player                         | 配列                   |     AC     |   -    |          [リンク](./adt/adt_all_20261008_2/b_first_player.cpp)          |
 | `abc306a` | Echo                                 | 実装                   |     AC     |   0    |              [リンク](./adt/adt_all_20261102_1/a_echo.cpp)              |
 | `abc306c` | Centers                              | 実装・配列             |     AC     |  159   |            [リンク](./adt/adt_all_20261001_1/f_centers.cpp)             |
@@ -189,6 +191,7 @@
 | `abc388a` | ?UPC                                 | 実装                   |     AC     |   8    |              [リンク](./adt/adt_easy_20260925_1/b_upc.cpp)              |
 | `abc388c` | Various Kagamimochi                  | 尺取り法・二分探索     |     AC     |  211   |      [リンク](./adt/adt_all_20261009_1/f_various_kagamimochi.cpp)       |
 | `abc388e` | Simultaneous Kagamimochi             |                        |            |  1068  |    [リンク](./adt/adt_all_20261019_1/h_simultaneous_kagamimochi.cpp)    |
+| `abc392a` | Shuffled Equation                    | 実装                   |     AC     |   11   |       [リンク](./adt/adt_all_20261103_1/b_shuffled_equation.cpp)        |
 | `abc392d` | Doubles                              | 全探索                 |     UP     |  579   |            [リンク](./adt/adt_all_20261020_1/g_doubles.cpp)             |
 | `abc393c` | Make it Simple                       | グラフ                 |     AC     |  188   |         [リンク](./adt/adt_all_20261014_2/f_make_it_simple.cpp)         |
 | `abc394d` | Colorful Bracket Sequence            | 連想配列               |     UP     |  253   |   [リンク](./adt/adt_all_20261008_1/g_colorful_bracket_sequence.cpp)    |
@@ -206,6 +209,7 @@
 | `abc411a` | Required Length                      | 実装                   |     AC     |   11   |         [リンク](./adt/adt_all_20261001_2/a_required_length.py)         |
 | `abc411b` | Distance Table                       | 累積和                 |     AC     |   32   |         [リンク](./adt/adt_all_20261021_2/c_distance_table.cpp)         |
 | `abc412b` | Precondition                         | 文字列・実装           |     AC     |   41   |          [リンク](./adt/adt_all_20261008_2/c_precondition.cpp)          |
+| `abc413c` | Large Queue                          | データ構造             |     AC     |  229   |          [リンク](./adt/adt_all_20261103_1/f_large_queue.cpp)           |
 | `abc414c` | Palindromic in Both Bases            | 全探索                 |            |  709   |   [リンク](./adt/adt_all_20261008_2/f_palindromic_in_both_bases.cpp)    |
 | `abc416b` | 1D Akari                             | 考察                   |     AC     |   56   |            [リンク](./adt/adt_all_20261016_1/c_1d_akari.cpp)            |
 | `abc416c` | Concat (X-th)                        | 全探索                 |     AC     |  298   |           [リンク](./adt/adt_all_20261019_1/f_concat_xth.cpp)           |
@@ -231,6 +235,8 @@
 | `abc441c` | Sake or Water                        | 貪欲法                 |     UP     |  406   |         [リンク](./adt/adt_all_20261012_2/e_sake_or_water.cpp)          |
 | `abc444c` | AtCoder Riko                         | 考察                   |     UP     |  582   |          [リンク](./adt/adt_all_20261028_2/e_atcoder_riko.cpp)          |
 | `abc444d` | Many Repunit Sum                     | 配列・考察             |     AC     |  574   |        [リンク](./adt/adt_all_20261012_1/g_many_repunit_sum.cpp)        |
+| `abc445c` | Sugoroku Destination                 | 1DDP                   |     AC     |  404   |      [リンク](./adt/adt_all_20261103_1/e_sugoroku_destination.cpp)      |
+| `abc447e` | Divide Graph                         |                        |            |  955   |          [リンク](./adt/adt_all_20261103_1/h_divide_graph.cpp)          |
 | `abc448a` | chmin                                | 実装                   |     AC     |   13   |             [リンク](./adt/adt_all_20261016_1/b_chmin.cpp)              |
 | `abc448d` | Integer-duplicated Path              | 深さ優先探索           |     UP     |  638   |    [リンク](./adt/adt_all_20261009_1/g_integer_duplicated_path.cpp)     |
 | `abc449a` | π                                    | 実装                   |     AC     |   30   |               [リンク](./adt/adt_all_20261023_1/b_π.cpp)                |
@@ -240,6 +246,7 @@
 | `abc452b` | Draw Frame                           | 実装                   |     UP     |   25   |           [リンク](./adt/adt_all_20261026_1/d_draw_frame.cpp)           |
 | `abc452c` | Fishbones                            | 連想配列               |     UP     |  435   |           [リンク](./adt/adt_all_20261012_1/e_fishbones.cpp)            |
 | `abc453d` | Go Straight                          | 最短経路               |     UP     |  1011  |          [リンク](./adt/adt_all_20261012_2/g_go_straight.cpp)           |
+| `abc456b` | 456                                  | 全探索                 |     AC     |   96   |              [リンク](./adt/adt_all_20261103_1/d_456.cpp)               |
 | `abc459a` | Hell, World!                         | 文字列                 |     AC     |   15   |           [リンク](./adt/adt_all_20261029_1/b_hell_world.cpp)           |
 | `abc459b` | 459                                  | 実装                   |     AC     |   32   |              [リンク](./adt/adt_all_20261014_2/c_459.cpp)               |
 | `abc463c` | Tallest at the Moment                | 二分探索               |     UP     |  274   |     [リンク](./adt/adt_all_20261013_2/e_tallest_at_the_moment.cpp)      |
@@ -248,6 +255,7 @@
 | `abc465b` | Parking 2                            | 実装                   |     AC     |   56   |           [リンク](./adt/adt_all_20261028_2/d_parking_2.cpp)            |
 | `abc467b` | Keep the Change                      | 実装                   |     AC     |   39   |        [リンク](./adt/adt_all_20261023_1/d_keep_the_change.cpp)         |
 | `abc467c` | Adjacent Sums (easy)                 | 考察                   |     UP     |  608   |       [リンク](./adt/adt_all_20261027_1/e_adjacent_sums_easy.cpp)       |
+| `abc467d` | Concentric Circles                   | 数学                   |     UP     |  928   |       [リンク](./adt/adt_all_20261103_1/g_concentric_circles.cpp)       |
 | `abc468a` | Maximal Value                        | 配列・実装             |     AC     |   17   |         [リンク](./adt/adt_all_20261013_2/b_maximal_value.cpp)          |
 | `abc469a` | Train Car                            | 実装                   |     UP     |   11   |           [リンク](./adt/adt_all_20261020_1/b_train_car.cpp)            |
 | `abc469b` | Isolated Seats                       | 実装                   |     AC     |   35   |         [リンク](./adt/adt_all_20260928_1/d_isolated_seats.cpp)         |
@@ -329,120 +337,129 @@
 
 ## Tessoku
 
-| ID  | 名前                        | 種類                     | ステータス | 難易度 |                         リンク                          |
-| --- | --------------------------- | ------------------------ | :--------: | :----: | :-----------------------------------------------------: |
-| A01 | The First Problem           | 実装                     |     AC     |  1/9   |      [リンク](./tessoku/a01_the_first_problem.cpp)      |
-| A02 | Linear Search               | 全探索                   |     AC     |  1/9   |        [リンク](./tessoku/a02_linear_search.cpp)        |
-| A03 | Two Cards                   | 全探索                   |     AC     |  1/9   |          [リンク](./tessoku/a03_two_cards.cpp)          |
-| A04 | Binary Representation       | ビット演算               |     AC     |  2/9   |    [リンク](./tessoku/a04_binary_representation.cpp)    |
-| A05 | Three Cards                 | 全探索                   |     AC     |  2/9   |         [リンク](./tessoku/a05_three_cards.cpp)         |
-| A06 | How Many Guests?            | 累積和                   |     AC     |  2/9   |       [リンク](./tessoku/a06_how_many_guests.cpp)       |
-| A07 | Event Attendance            | 累積和                   |     AC     |  3/9   |      [リンク](./tessoku/a07_event_attendance.cpp)       |
-| A08 | Two Dimensional Sum         | 累積和                   |     AC     |  4/9   |     [リンク](./tessoku/a08_two_dimensional_sum.cpp)     |
-| A09 | Winter in ALGO Kingdom      | 累積和                   |     AC     |  4/9   |   [リンク](./tessoku/a09_winter_in_algo_kingdom.cpp)    |
-| A10 | Resort Hotel                | 累積和                   |     AC     |  4/9   |        [リンク](./tessoku/a10_resort_hotel.cpp)         |
-| A11 | Binary Search 1             | 二分探索                 |     AC     |  2/9   |       [リンク](./tessoku/a11_binary_search_1.cpp)       |
-| A12 | Printer                     | 二分探索                 |     AC     |  3/9   |           [リンク](./tessoku/a12_printer.cpp)           |
-| A13 | Close Pairs                 | 尺取り法                 |     AC     |  4/9   |         [リンク](./tessoku/a13_close_pairs.cpp)         |
-| A14 | Four Boxes                  | 半分全列挙               |     AC     |  5/9   |         [リンク](./tessoku/a14_four_boxes.cpp)          |
-| A15 | Compression                 | 考察・二分探索           |     AC     |  3/9   |         [リンク](./tessoku/a15_compression.cpp)         |
-| A16 | Dungeon 1                   | 1DDP                     |     AC     |  2/9   |          [リンク](./tessoku/a16_dungeon_1.cpp)          |
-| A17 | Dungeon 2                   | 1DDPR                    |     AC     |  3/9   |          [リンク](./tessoku/a17_dungeon_2.cpp)          |
-| A18 | Subset Sum                  | 2DDP                     |     AC     |  3/9   |         [リンク](./tessoku/a18_subset_sum.cpp)          |
-| A19 | Knapsack 1                  | 2DDP                     |     AC     |  3/9   |         [リンク](./tessoku/a19_knapsack_1.cpp)          |
-| A20 | LCS                         | 2DDP・文字列             |     AC     |  4/9   |             [リンク](./tessoku/a20_lcs.cpp)             |
-| A21 | Block Game                  | 区間DP                   |     AC     |  4/9   |         [リンク](./tessoku/a21_block_game.cpp)          |
-| A22 | Sugoroku                    | 1DDP                     |     AC     |  4/9   |          [リンク](./tessoku/a22_sugoroku.cpp)           |
-| A23 | All Free                    | ビットDP                 |     AC     |  5/9   |          [リンク](./tessoku/a23_all_free.cpp)           |
-| A24 | LIS                         | 1DDP                     |     AC     |  5/9   |             [リンク](./tessoku/a24_lis.cpp)             |
-| A25 | Number of Routes            | 1DDP                     |     AC     |  3/9   |      [リンク](./tessoku/a25_number_of_routes.cpp)       |
-| A26 | Prime Check                 | 数学                     |     AC     |  2/9   |         [リンク](./tessoku/a26_prime_check.cpp)         |
-| A27 | Calculate GCD               | 数学                     |     AC     |  2/9   |        [リンク](./tessoku/a27_calculate_gcd.cpp)        |
-| A28 | Blackboard                  | 数学                     |     AC     |  2/9   |         [リンク](./tessoku/a28_blackboard.cpp)          |
-| A29 | Power                       | 数学                     |     AC     |  3/9   |            [リンク](./tessoku/a29_power.cpp)            |
-| A30 | Combination                 | 数学                     |     AC     |  4/9   |         [リンク](./tessoku/a30_combination.cpp)         |
-| A31 | Divisors                    | 数学                     |     AC     |  2/9   |          [リンク](./tessoku/a31_divisors.cpp)           |
-| A32 | Game 1                      | ゲーム                   |     AC     |  3/9   |           [リンク](./tessoku/a32_game_1.cpp)            |
-| A33 | Game 2                      | ゲーム                   |     AC     |  5/9   |           [リンク](./tessoku/a33_game_2.cpp)            |
-| A34 | Game 3                      | ゲーム                   |     AC     |  6/9   |           [リンク](./tessoku/a34_game_3.cpp)            |
-| A35 | Game 4                      | 2DDP                     |     AC     |  6/9   |           [リンク](./tessoku/a34_game_3.cpp)            |
-| A36 | Travel                      | 考察                     |     AC     |  2/9   |           [リンク](./tessoku/a36_travel.cpp)            |
-| A37 | Travel 2                    | 考察                     |     AC     |  2/9   |          [リンク](./tessoku/a37_travel_2.cpp)           |
-| A38 | Black Company 1             | 考察                     |     AC     |  3/9   |       [リンク](./tessoku/a38_black_company_1.cpp)       |
-| A39 | Interval Scheduling         | 貪欲法                   |     AC     |  3/9   |     [リンク](./tessoku/a39_interval_scheduling.cpp)     |
-| A40 | Triangle                    | 組み合わせ               |     AC     |  3/9   |          [リンク](./tessoku/a40_triangle.cpp)           |
-| A41 | Tile Coloring               | 考察                     |     AC     |  3/9   |        [リンク](./tessoku/a41_tile_coloring.cpp)        |
-| A42 | Soccer                      | 全探索                   |     AC     |  4/9   |           [リンク](./tessoku/a42_soccer.cpp)            |
-| A43 | Travel 3                    | 考察                     |     AC     |  4/9   |          [リンク](./tessoku/a43_travel_3.cpp)           |
-| A44 | Change and Reverse          | クエリ処理・配列         |     AC     |  3/9   |     [リンク](./tessoku/a44_change_and_reverse.cpp)      |
-| A45 | Card Elimination            | 考察                     |     AC     |  5/9   |      [リンク](./tessoku/a45_card_elimination.cpp)       |
-| A46 | Heuristic 1                 | -                        |     AC     |  3/9   |         [リンク](./tessoku/a46_heuristic_1.cpp)         |
-| A49 | Heuristic 2                 | -                        |            |  6/9   |                                                         |
-| A50 | 山型足し算                  | -                        |            |  6/9   |                                                         |
-| A51 | Stack                       | データ構造               |     AC     |  2/9   |            [リンク](./tessoku/a51_stack.cpp)            |
-| A52 | Queue                       | データ構造               |     AC     |  2/9   |            [リンク](./tessoku/a52_queue.cpp)            |
-| A53 | Priority Queue              | データ構造               |     AC     |  2/9   |       [リンク](./tessoku/a53_priority_queue.cpp)        |
-| A54 | Map                         | 連想配列                 |     AC     |  2/9   |             [リンク](./tessoku/a54_map.cpp)             |
-| A55 | Set                         | データ構造               |     AC     |  4/9   |             [リンク](./tessoku/a55_set.cpp)             |
-| A56 | String Hash                 | 文字列                   |     AC     |  5/9   |         [リンク](./tessoku/a56_string_hash.cpp)         |
-| A57 | Doubling                    | 2DDP                     |     AC     |  5/9   |          [リンク](./tessoku/a57_doubling.cpp)           |
-| A58 | RMQ                         | セグメント木             |     AC     |  5/9   |             [リンク](./tessoku/a58_rmq.cpp)             |
-| A59 | RSQ                         | セグメント木             |     AC     |  5/9   |             [リンク](./tessoku/a59_rsq.cpp)             |
-| A60 | Stock Price                 | データ構造               |     AC     |  4/9   |         [リンク](./tessoku/a60_stock_price.cpp)         |
-| A61 | Adjacent Vertices           | グラフ                   |     AC     |  2/9   |      [リンク](./tessoku/a61_adjacent_vertices.cpp)      |
-| A62 | Depth First Search          | グラフ                   |     AC     |  3/9   |     [リンク](./tessoku/a62_depth_first_search.cpp)      |
-| A63 | Shortest Path 1             | グラフ                   |     AC     |  3/9   |       [リンク](./tessoku/a63_shortest_path_1.cpp)       |
-| B01 | A+B Problem                 | 実装                     |     AC     |   -    |         [リンク](./tessoku/b01_a_b_problem.cpp)         |
-| B02 | Divisor Check               | 数学・全探索             |     AC     |   -    |        [リンク](./tessoku/b02_divisor_check.cpp)        |
-| B03 | Supermarket                 | 全探索                   |     AC     |   -    |         [リンク](./tessoku/b03_supermarket.cpp)         |
-| B04 | Supermarket                 | ビット演算               |     AC     |   -    |   [リンク](./tessoku/b04_binary_representation_2.cpp)   |
-| B06 | Lottery                     | 累積和                   |     AC     |   -    |           [リンク](./tessoku/b06_lottery.cpp)           |
-| B07 | Convenience Store 2         | 累積和                   |     AC     |   -    |     [リンク](./tessoku/b07_convenience_store_2.cpp)     |
-| B08 | Counting Points             | 累積和                   |     AC     |   -    |       [リンク](./tessoku/b08_counting_points.cpp)       |
-| B09 | Papers                      | 累積和                   |     AC     |   -    |           [リンク](./tessoku/b09_papers.cpp)            |
-| B11 | Binary Search 2             | 二分探索                 |     AC     |   -    |       [リンク](./tessoku/b11_binary_search_2.cpp)       |
-| B12 | Equation                    | 二分探索                 |     AC     |   -    |          [リンク](./tessoku/b12_equation.cpp)           |
-| B13 | Supermarket 2               | 尺取り法                 |     AC     |   -    |        [リンク](./tessoku/b13_supermarket_2.cpp)        |
-| B14 | Another Subset Sum          | ビット全探索・半分全列挙 |     AC     |   -    |     [リンク](./tessoku/b14_another_subset_sum.cpp)      |
-| B16 | Frog 1                      | 1DDP                     |     AC     |   -    |           [リンク](./tessoku/b16_frog_1.cpp)            |
-| B17 | Frog 1 with Restoration     | 1DDPR                    |     AC     |   -    |   [リンク](./tessoku/b17_frog_1_with_restoration.cpp)   |
-| B18 | Subset Sum with Restoration | 2DDPR                    |     AC     |   -    | [リンク](./tessoku/b18_subset_sum_with_restoration.cpp) |
-| B19 | Knapsack 2                  | 2DDP                     |     AC     |   -    |         [リンク](./tessoku/b19_knapsack_2.cpp)          |
-| B20 | Edit Distance               | 2DDP・文字列             |     AC     |   -    |        [リンク](./tessoku/b20_edit_distance.cpp)        |
-| B21 | Longest Palindrome          | 2DDP・文字列             |     AC     |   -    |     [リンク](./tessoku/b21_longest_palindrome.cpp)      |
-| B22 | Dungeon 1                   | 1DDP                     |     AC     |   -    |          [リンク](./tessoku/b22_dungeon_1.cpp)          |
-| B23 | Traveling Salesman Problem  | ビットDP                 |     AC     |   -    | [リンク](./tessoku/b23_traveling_salesman_problem.cpp)  |
-| B24 | Many Boxes                  | 1DDP                     |     AC     |   -    |         [リンク](./tessoku/b24_many_boxes.cpp)          |
-| B26 | Output Prime Numbers        | 数学                     |     AC     |   -    |    [リンク](./tessoku/b26_output_prime_numbers.cpp)     |
-| B27 | Calculate LCM               | 数学                     |     AC     |   -    |        [リンク](./tessoku/b27_calculate_lcm.cpp)        |
-| B28 | Fibonacci Easy              | 数学                     |     AC     |   -    |       [リンク](./tessoku/b28_fibonacci_easy.cpp)        |
-| B29 | Power Hard                  | 数学                     |     AC     |   -    |         [リンク](./tessoku/b29_power_hard.cpp)          |
-| B30 | Combination 2               | 組み合わせ               |     AC     |   -    |        [リンク](./tessoku/b30_combination_2.cpp)        |
-| B31 | Divisors Hard               | 数学                     |     AC     |   -    |        [リンク](./tessoku/b31_divisors_hard.cpp)        |
-| B32 | Game 5                      | ゲーム                   |     AC     |   -    |           [リンク](./tessoku/b32_game_5.cpp)            |
-| B33 | Game 6                      | ゲーム                   |     AC     |   -    |         [リンク](./tessoku/b33_game_6.cpp.cpp)          |
-| B34 | Game 7                      | ゲーム                   |     AC     |   -    |           [リンク](./tessoku/b34_game_7.cpp)            |
-| B36 | Switching Lights            | 考察                     |     AC     |   -    |      [リンク](./tessoku/b36_switching_lights.cpp)       |
-| B37 | Sum of Digits               | 考察                     |     AC     |   -    |        [リンク](./tessoku/b37_sum_of_digits.cpp)        |
-| B38 | Heights of Grass            | 考察                     |     AC     |   -    |      [リンク](./tessoku/b38_heights_of_grass.cpp)       |
-| B39 | Taro's Job (Easy)           | 貪欲法                   |     AC     |   -    |          [リンク](./tessoku/b39_taros_job.cpp)          |
-| B40 | Divide by 100               | 組み合わせ               |     AC     |   -    |        [リンク](./tessoku/b40_divide_by_100.cpp)        |
-| B41 | Reverse of Euclid           | 考察                     |     AC     |   -    |      [リンク](./tessoku/b41_reverse_of_euclid.cpp)      |
-| B42 | Two Faced Cards             | 全探索                   |     AC     |   -    |       [リンク](./tessoku/b42_two_faced_cards.cpp)       |
-| B43 | Quiz Contest                | 考察                     |     AC     |   -    |        [リンク](./tessoku/b43_quiz_contest.cpp)         |
-| B44 | Grid Operations             | クエリ処理・行列         |     AC     |   -    |       [リンク](./tessoku/b44_grid_operations.cpp)       |
-| B45 | Blackboard 2                | 考察                     |     AC     |   -    |        [リンク](./tessoku/b45_blackboard_2.cpp)         |
-| B51 | Bracket                     | データ構造               |     AC     |   -    |           [リンク](./tessoku/b51_bracket.cpp)           |
-| B52 | Ball Simulation             | データ構造               |     AC     |   -    |       [リンク](./tessoku/b52_ball_simulation.cpp)       |
-| B53 | Taro's Job (Hard)           | データ構造               |     AC     |   -    |          [リンク](./tessoku/b53_taros_job.cpp)          |
-| B54 | Counting Same Values        | 連想配列                 |     AC     |   -    |    [リンク](./tessoku/b54_counting_same_values.cpp)     |
-| B55 | Difference                  | データ構造               |     AC     |   -    |         [リンク](./tessoku/b55_difference.cpp)          |
-| B56 | Palindrome Queries          | 文字列                   |     AC     |   -    |     [リンク](./tessoku/b56_palindrome_queries.cpp)      |
-| B57 | Calculator                  | 2DDP                     |     AC     |   -    |         [リンク](./tessoku/b57_calculator.cpp)          |
-| B58 | Jumping                     | 1DDP・セグメント木       |     AC     |   -    |           [リンク](./tessoku/b58_jumping.cpp)           |
-| B59 | Number of Inversions        | セグメント木             |     AC     |   -    |    [リンク](./tessoku/b59_number_of_inversions.cpp)     |
-| B61 | Influencer                  | グラフ                   |     AC     |   -    |         [リンク](./tessoku/b61_influencer.cpp)          |
-| B62 | Print a Path                | グラフ                   |     AC     |   -    |        [リンク](./tessoku/b62_print_a_path.cpp)         |
+| ID  | 名前                           | 種類                     | ステータス | 難易度 |                           リンク                           |
+| --- | ------------------------------ | ------------------------ | :--------: | :----: | :--------------------------------------------------------: |
+| A01 | The First Problem              | 実装                     |     AC     |  1/9   |       [リンク](./tessoku/a01_the_first_problem.cpp)        |
+| A02 | Linear Search                  | 全探索                   |     AC     |  1/9   |         [リンク](./tessoku/a02_linear_search.cpp)          |
+| A03 | Two Cards                      | 全探索                   |     AC     |  1/9   |           [リンク](./tessoku/a03_two_cards.cpp)            |
+| A04 | Binary Representation          | ビット演算               |     AC     |  2/9   |     [リンク](./tessoku/a04_binary_representation.cpp)      |
+| A05 | Three Cards                    | 全探索                   |     AC     |  2/9   |          [リンク](./tessoku/a05_three_cards.cpp)           |
+| A06 | How Many Guests?               | 累積和                   |     AC     |  2/9   |        [リンク](./tessoku/a06_how_many_guests.cpp)         |
+| A07 | Event Attendance               | 累積和                   |     AC     |  3/9   |        [リンク](./tessoku/a07_event_attendance.cpp)        |
+| A08 | Two Dimensional Sum            | 累積和                   |     AC     |  4/9   |      [リンク](./tessoku/a08_two_dimensional_sum.cpp)       |
+| A09 | Winter in ALGO Kingdom         | 累積和                   |     AC     |  4/9   |     [リンク](./tessoku/a09_winter_in_algo_kingdom.cpp)     |
+| A10 | Resort Hotel                   | 累積和                   |     AC     |  4/9   |          [リンク](./tessoku/a10_resort_hotel.cpp)          |
+| A11 | Binary Search 1                | 二分探索                 |     AC     |  2/9   |        [リンク](./tessoku/a11_binary_search_1.cpp)         |
+| A12 | Printer                        | 二分探索                 |     AC     |  3/9   |            [リンク](./tessoku/a12_printer.cpp)             |
+| A13 | Close Pairs                    | 尺取り法                 |     AC     |  4/9   |          [リンク](./tessoku/a13_close_pairs.cpp)           |
+| A14 | Four Boxes                     | 半分全列挙               |     AC     |  5/9   |           [リンク](./tessoku/a14_four_boxes.cpp)           |
+| A15 | Compression                    | 考察・二分探索           |     AC     |  3/9   |          [リンク](./tessoku/a15_compression.cpp)           |
+| A16 | Dungeon 1                      | 1DDP                     |     AC     |  2/9   |           [リンク](./tessoku/a16_dungeon_1.cpp)            |
+| A17 | Dungeon 2                      | 1DDPR                    |     AC     |  3/9   |           [リンク](./tessoku/a17_dungeon_2.cpp)            |
+| A18 | Subset Sum                     | 2DDP                     |     AC     |  3/9   |           [リンク](./tessoku/a18_subset_sum.cpp)           |
+| A19 | Knapsack 1                     | 2DDP                     |     AC     |  3/9   |           [リンク](./tessoku/a19_knapsack_1.cpp)           |
+| A20 | LCS                            | 2DDP・文字列             |     AC     |  4/9   |              [リンク](./tessoku/a20_lcs.cpp)               |
+| A21 | Block Game                     | 区間DP                   |     AC     |  4/9   |           [リンク](./tessoku/a21_block_game.cpp)           |
+| A22 | Sugoroku                       | 1DDP                     |     AC     |  4/9   |            [リンク](./tessoku/a22_sugoroku.cpp)            |
+| A23 | All Free                       | ビットDP                 |     AC     |  5/9   |            [リンク](./tessoku/a23_all_free.cpp)            |
+| A24 | LIS                            | 1DDP                     |     AC     |  5/9   |              [リンク](./tessoku/a24_lis.cpp)               |
+| A25 | Number of Routes               | 1DDP                     |     AC     |  3/9   |        [リンク](./tessoku/a25_number_of_routes.cpp)        |
+| A26 | Prime Check                    | 数学                     |     AC     |  2/9   |          [リンク](./tessoku/a26_prime_check.cpp)           |
+| A27 | Calculate GCD                  | 数学                     |     AC     |  2/9   |         [リンク](./tessoku/a27_calculate_gcd.cpp)          |
+| A28 | Blackboard                     | 数学                     |     AC     |  2/9   |           [リンク](./tessoku/a28_blackboard.cpp)           |
+| A29 | Power                          | 数学                     |     AC     |  3/9   |             [リンク](./tessoku/a29_power.cpp)              |
+| A30 | Combination                    | 数学                     |     AC     |  4/9   |          [リンク](./tessoku/a30_combination.cpp)           |
+| A31 | Divisors                       | 数学                     |     AC     |  2/9   |            [リンク](./tessoku/a31_divisors.cpp)            |
+| A32 | Game 1                         | ゲーム                   |     AC     |  3/9   |             [リンク](./tessoku/a32_game_1.cpp)             |
+| A33 | Game 2                         | ゲーム                   |     AC     |  5/9   |             [リンク](./tessoku/a33_game_2.cpp)             |
+| A34 | Game 3                         | ゲーム                   |     AC     |  6/9   |             [リンク](./tessoku/a34_game_3.cpp)             |
+| A35 | Game 4                         | 2DDP                     |     AC     |  6/9   |             [リンク](./tessoku/a34_game_3.cpp)             |
+| A36 | Travel                         | 考察                     |     AC     |  2/9   |             [リンク](./tessoku/a36_travel.cpp)             |
+| A37 | Travel 2                       | 考察                     |     AC     |  2/9   |            [リンク](./tessoku/a37_travel_2.cpp)            |
+| A38 | Black Company 1                | 考察                     |     AC     |  3/9   |        [リンク](./tessoku/a38_black_company_1.cpp)         |
+| A39 | Interval Scheduling            | 貪欲法                   |     AC     |  3/9   |      [リンク](./tessoku/a39_interval_scheduling.cpp)       |
+| A40 | Triangle                       | 組み合わせ               |     AC     |  3/9   |            [リンク](./tessoku/a40_triangle.cpp)            |
+| A41 | Tile Coloring                  | 考察                     |     AC     |  3/9   |         [リンク](./tessoku/a41_tile_coloring.cpp)          |
+| A42 | Soccer                         | 全探索                   |     AC     |  4/9   |             [リンク](./tessoku/a42_soccer.cpp)             |
+| A43 | Travel 3                       | 考察                     |     AC     |  4/9   |            [リンク](./tessoku/a43_travel_3.cpp)            |
+| A44 | Change and Reverse             | クエリ処理・配列         |     AC     |  3/9   |       [リンク](./tessoku/a44_change_and_reverse.cpp)       |
+| A45 | Card Elimination               | 考察                     |     AC     |  5/9   |        [リンク](./tessoku/a45_card_elimination.cpp)        |
+| A46 | Heuristic 1                    | -                        |     AC     |  3/9   |          [リンク](./tessoku/a46_heuristic_1.cpp)           |
+| A49 | Heuristic 2                    | -                        |            |  6/9   |                                                            |
+| A50 | 山型足し算                     | -                        |            |  6/9   |                                                            |
+| A51 | Stack                          | データ構造               |     AC     |  2/9   |             [リンク](./tessoku/a51_stack.cpp)              |
+| A52 | Queue                          | データ構造               |     AC     |  2/9   |             [リンク](./tessoku/a52_queue.cpp)              |
+| A53 | Priority Queue                 | データ構造               |     AC     |  2/9   |         [リンク](./tessoku/a53_priority_queue.cpp)         |
+| A54 | Map                            | 連想配列                 |     AC     |  2/9   |              [リンク](./tessoku/a54_map.cpp)               |
+| A55 | Set                            | データ構造               |     AC     |  4/9   |              [リンク](./tessoku/a55_set.cpp)               |
+| A56 | String Hash                    | 文字列                   |     AC     |  5/9   |          [リンク](./tessoku/a56_string_hash.cpp)           |
+| A57 | Doubling                       | 2DDP                     |     AC     |  5/9   |            [リンク](./tessoku/a57_doubling.cpp)            |
+| A58 | RMQ                            | セグメント木             |     AC     |  5/9   |              [リンク](./tessoku/a58_rmq.cpp)               |
+| A59 | RSQ                            | セグメント木             |     AC     |  5/9   |              [リンク](./tessoku/a59_rsq.cpp)               |
+| A60 | Stock Price                    | データ構造               |     AC     |  4/9   |          [リンク](./tessoku/a60_stock_price.cpp)           |
+| A61 | Adjacent Vertices              | グラフ                   |     AC     |  2/9   |       [リンク](./tessoku/a61_adjacent_vertices.cpp)        |
+| A62 | Depth First Search             | グラフ                   |     AC     |  3/9   |       [リンク](./tessoku/a62_depth_first_search.cpp)       |
+| A63 | Shortest Path 1                | グラフ                   |     AC     |  3/9   |        [リンク](./tessoku/a63_shortest_path_1.cpp)         |
+| A64 | Shortest Path 2                | 最短経路                 |     AC     |  4/9   |        [リンク](./tessoku/a64_shortest_path_2.cpp)         |
+| A65 | Road to Promotion              | 木DP                     |     AC     |  4/9   |       [リンク](./tessoku/a65_road_to_promotion.cpp)        |
+| A66 | Connect Query                  | Union-Find               |     AC     |  3/9   |         [リンク](./tessoku/a66_connect_query.cpp)          |
+| A67 | MST                            | Union-Find・木構造       |     AC     |  5/9   |              [リンク](./tessoku/a67_mst.cpp)               |
+| B01 | A+B Problem                    | 実装                     |     AC     |   -    |          [リンク](./tessoku/b01_a_b_problem.cpp)           |
+| B02 | Divisor Check                  | 数学・全探索             |     AC     |   -    |         [リンク](./tessoku/b02_divisor_check.cpp)          |
+| B03 | Supermarket                    | 全探索                   |     AC     |   -    |          [リンク](./tessoku/b03_supermarket.cpp)           |
+| B04 | Supermarket                    | ビット演算               |     AC     |   -    |    [リンク](./tessoku/b04_binary_representation_2.cpp)     |
+| B06 | Lottery                        | 累積和                   |     AC     |   -    |            [リンク](./tessoku/b06_lottery.cpp)             |
+| B07 | Convenience Store 2            | 累積和                   |     AC     |   -    |      [リンク](./tessoku/b07_convenience_store_2.cpp)       |
+| B08 | Counting Points                | 累積和                   |     AC     |   -    |        [リンク](./tessoku/b08_counting_points.cpp)         |
+| B09 | Papers                         | 累積和                   |     AC     |   -    |             [リンク](./tessoku/b09_papers.cpp)             |
+| B11 | Binary Search 2                | 二分探索                 |     AC     |   -    |        [リンク](./tessoku/b11_binary_search_2.cpp)         |
+| B12 | Equation                       | 二分探索                 |     AC     |   -    |            [リンク](./tessoku/b12_equation.cpp)            |
+| B13 | Supermarket 2                  | 尺取り法                 |     AC     |   -    |         [リンク](./tessoku/b13_supermarket_2.cpp)          |
+| B14 | Another Subset Sum             | ビット全探索・半分全列挙 |     AC     |   -    |       [リンク](./tessoku/b14_another_subset_sum.cpp)       |
+| B16 | Frog 1                         | 1DDP                     |     AC     |   -    |             [リンク](./tessoku/b16_frog_1.cpp)             |
+| B17 | Frog 1 with Restoration        | 1DDPR                    |     AC     |   -    |    [リンク](./tessoku/b17_frog_1_with_restoration.cpp)     |
+| B18 | Subset Sum with Restoration    | 2DDPR                    |     AC     |   -    |  [リンク](./tessoku/b18_subset_sum_with_restoration.cpp)   |
+| B19 | Knapsack 2                     | 2DDP                     |     AC     |   -    |           [リンク](./tessoku/b19_knapsack_2.cpp)           |
+| B20 | Edit Distance                  | 2DDP・文字列             |     AC     |   -    |         [リンク](./tessoku/b20_edit_distance.cpp)          |
+| B21 | Longest Palindrome             | 2DDP・文字列             |     AC     |   -    |       [リンク](./tessoku/b21_longest_palindrome.cpp)       |
+| B22 | Dungeon 1                      | 1DDP                     |     AC     |   -    |           [リンク](./tessoku/b22_dungeon_1.cpp)            |
+| B23 | Traveling Salesman Problem     | ビットDP                 |     AC     |   -    |   [リンク](./tessoku/b23_traveling_salesman_problem.cpp)   |
+| B24 | Many Boxes                     | 1DDP                     |     AC     |   -    |           [リンク](./tessoku/b24_many_boxes.cpp)           |
+| B26 | Output Prime Numbers           | 数学                     |     AC     |   -    |      [リンク](./tessoku/b26_output_prime_numbers.cpp)      |
+| B27 | Calculate LCM                  | 数学                     |     AC     |   -    |         [リンク](./tessoku/b27_calculate_lcm.cpp)          |
+| B28 | Fibonacci Easy                 | 数学                     |     AC     |   -    |         [リンク](./tessoku/b28_fibonacci_easy.cpp)         |
+| B29 | Power Hard                     | 数学                     |     AC     |   -    |           [リンク](./tessoku/b29_power_hard.cpp)           |
+| B30 | Combination 2                  | 組み合わせ               |     AC     |   -    |         [リンク](./tessoku/b30_combination_2.cpp)          |
+| B31 | Divisors Hard                  | 数学                     |     AC     |   -    |         [リンク](./tessoku/b31_divisors_hard.cpp)          |
+| B32 | Game 5                         | ゲーム                   |     AC     |   -    |             [リンク](./tessoku/b32_game_5.cpp)             |
+| B33 | Game 6                         | ゲーム                   |     AC     |   -    |           [リンク](./tessoku/b33_game_6.cpp.cpp)           |
+| B34 | Game 7                         | ゲーム                   |     AC     |   -    |             [リンク](./tessoku/b34_game_7.cpp)             |
+| B36 | Switching Lights               | 考察                     |     AC     |   -    |        [リンク](./tessoku/b36_switching_lights.cpp)        |
+| B37 | Sum of Digits                  | 考察                     |     AC     |   -    |         [リンク](./tessoku/b37_sum_of_digits.cpp)          |
+| B38 | Heights of Grass               | 考察                     |     AC     |   -    |        [リンク](./tessoku/b38_heights_of_grass.cpp)        |
+| B39 | Taro's Job (Easy)              | 貪欲法                   |     AC     |   -    |           [リンク](./tessoku/b39_taros_job.cpp)            |
+| B40 | Divide by 100                  | 組み合わせ               |     AC     |   -    |         [リンク](./tessoku/b40_divide_by_100.cpp)          |
+| B41 | Reverse of Euclid              | 考察                     |     AC     |   -    |       [リンク](./tessoku/b41_reverse_of_euclid.cpp)        |
+| B42 | Two Faced Cards                | 全探索                   |     AC     |   -    |        [リンク](./tessoku/b42_two_faced_cards.cpp)         |
+| B43 | Quiz Contest                   | 考察                     |     AC     |   -    |          [リンク](./tessoku/b43_quiz_contest.cpp)          |
+| B44 | Grid Operations                | クエリ処理・行列         |     AC     |   -    |        [リンク](./tessoku/b44_grid_operations.cpp)         |
+| B45 | Blackboard 2                   | 考察                     |     AC     |   -    |          [リンク](./tessoku/b45_blackboard_2.cpp)          |
+| B51 | Bracket                        | データ構造               |     AC     |   -    |            [リンク](./tessoku/b51_bracket.cpp)             |
+| B52 | Ball Simulation                | データ構造               |     AC     |   -    |        [リンク](./tessoku/b52_ball_simulation.cpp)         |
+| B53 | Taro's Job (Hard)              | データ構造               |     AC     |   -    |           [リンク](./tessoku/b53_taros_job.cpp)            |
+| B54 | Counting Same Values           | 連想配列                 |     AC     |   -    |      [リンク](./tessoku/b54_counting_same_values.cpp)      |
+| B55 | Difference                     | データ構造               |     AC     |   -    |           [リンク](./tessoku/b55_difference.cpp)           |
+| B56 | Palindrome Queries             | 文字列                   |     AC     |   -    |       [リンク](./tessoku/b56_palindrome_queries.cpp)       |
+| B57 | Calculator                     | 2DDP                     |     AC     |   -    |           [リンク](./tessoku/b57_calculator.cpp)           |
+| B58 | Jumping                        | 1DDP・セグメント木       |     AC     |   -    |            [リンク](./tessoku/b58_jumping.cpp)             |
+| B59 | Number of Inversions           | セグメント木             |     AC     |   -    |      [リンク](./tessoku/b59_number_of_inversions.cpp)      |
+| B61 | Influencer                     | グラフ                   |     AC     |   -    |           [リンク](./tessoku/b61_influencer.cpp)           |
+| B62 | Print a Path                   | グラフ                   |     AC     |   -    |          [リンク](./tessoku/b62_print_a_path.cpp)          |
+| B63 | 幅優先探索                     | グラフ                   |     AC     |   -    |           [リンク](./tessoku/b63_幅優先探索.cpp)           |
+| B64 | Shortest Path with Restoration | 最短経路                 |     AC     |   -    | [リンク](./tessoku/b64_shortest_path_with_restoration.cpp) |
+| B65 | Road to Promotion Hard         | 木DP                     |     AC     |   -    |     [リンク](./tessoku/b65_road_to_promotion_hard.cpp)     |
+| B66 | Typhoon                        | Union-Find・クエリ処理   |     AC     |   -    |            [リンク](./tessoku/b66_typhoon.cpp)             |
+| B67 | Max MST                        | Union-Find               |     AC     |   -    |            [リンク](./tessoku/b67_max_mst.cpp)             |
 
 ## Others
 

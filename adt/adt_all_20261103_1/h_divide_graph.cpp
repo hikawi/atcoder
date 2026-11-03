@@ -1,5 +1,6 @@
 #include <algorithm>
 #include <array>
+#include <atcoder/all>
 #include <iomanip>
 #include <iostream>
 #include <map>
@@ -10,6 +11,7 @@
 #include <utility>
 #include <vector>
 using namespace std;
+using namespace atcoder;
 
 using ll = long long;
 using ull = unsigned long long;
@@ -49,8 +51,48 @@ ll modpow(ll a, ll b, ll m) {if (b == 0)return 1;ll c = 1, d = a;while (b) {if (
 ll moddiv(ll a, ll b, ll m) {return (a * modpow(b, m - 2, m)) % m;}
 // clang-format on
 
+ll mod = 998244353;
+
 int main() {
   ios::sync_with_stdio(0);
   cin.tie(0);
   cout << setprecision(13);
+  int n, m;
+  cin >> n >> m;
+  vector<pll> edges(m);
+  rep(i, 0, m) {
+    ll u, v;
+    cin >> u >> v;
+    edges[i] = {u - 1, v - 1};
+  }
+
+  vector<int> selected(m);
+  dsu U(n);
+  int c = 0;
+  for (int i = m - 1; i >= 0; i--) {
+    auto &[u, v] = edges[i];
+    if (U.same(u, v))
+      continue;
+    c++;
+    if (c == n - 1)
+      break;
+    U.merge(u, v);
+    selected[i] = 1;
+  }
+
+  // all edges not selected are the removed set.
+  // smallest edge that is included.
+  ll ans = 0;
+  rep(i, 0, m) {
+    if (selected[i])
+      continue;
+    auto &[u, v] = edges[i];
+    if (U.same(u, v)) // can be added
+    {
+      U.merge(u, v);
+      continue;
+    }
+    ans += pow_mod(2, i + 1, mod);
+  }
+  cout << ans << el;
 }
