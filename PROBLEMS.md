@@ -389,6 +389,9 @@
 | A58 | RMQ                         | セグメント木             |     AC     |  5/9   |             [リンク](./tessoku/a58_rmq.cpp)             |
 | A59 | RSQ                         | セグメント木             |     AC     |  5/9   |             [リンク](./tessoku/a59_rsq.cpp)             |
 | A60 | Stock Price                 | データ構造               |     AC     |  4/9   |         [リンク](./tessoku/a60_stock_price.cpp)         |
+| A61 | Adjacent Vertices           | グラフ                   |     AC     |  2/9   |      [リンク](./tessoku/a61_adjacent_vertices.cpp)      |
+| A62 | Depth First Search          | グラフ                   |     AC     |  3/9   |     [リンク](./tessoku/a62_depth_first_search.cpp)      |
+| A63 | Shortest Path 1             | グラフ                   |     AC     |  3/9   |       [リンク](./tessoku/a63_shortest_path_1.cpp)       |
 | B01 | A+B Problem                 | 実装                     |     AC     |   -    |         [リンク](./tessoku/b01_a_b_problem.cpp)         |
 | B02 | Divisor Check               | 数学・全探索             |     AC     |   -    |        [リンク](./tessoku/b02_divisor_check.cpp)        |
 | B03 | Supermarket                 | 全探索                   |     AC     |   -    |         [リンク](./tessoku/b03_supermarket.cpp)         |
@@ -438,6 +441,8 @@
 | B57 | Calculator                  | 2DDP                     |     AC     |   -    |         [リンク](./tessoku/b57_calculator.cpp)          |
 | B58 | Jumping                     | 1DDP・セグメント木       |     AC     |   -    |           [リンク](./tessoku/b58_jumping.cpp)           |
 | B59 | Number of Inversions        | セグメント木             |     AC     |   -    |    [リンク](./tessoku/b59_number_of_inversions.cpp)     |
+| B61 | Influencer                  | グラフ                   |     AC     |   -    |         [リンク](./tessoku/b61_influencer.cpp)          |
+| B62 | Print a Path                | グラフ                   |     AC     |   -    |        [リンク](./tessoku/b62_print_a_path.cpp)         |
 
 ## Others
 
