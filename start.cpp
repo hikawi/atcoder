@@ -15,13 +15,14 @@ using ll = long long;
 using ull = unsigned long long;
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
+using i128 = __int128;
 
 template <typename T> using uset = unordered_set<T>;
 template <typename K, typename V> using umap = unordered_map<K, V>;
 template <typename T, int N> using arr = array<T, N>;
 
-#define rep(i, x, limit)   for (ll i = (ll)x; i < (ll)limit; i++)
-#define repeq(i, x, limit) for (ll i = (ll)x; i <= (ll)limit; i++)
+#define rep(i, x, limit)   for (ll i = ll(x); i < ll(limit); i++)
+#define repeq(i, x, limit) for (ll i = ll(x); i <= ll(limit); i++)
 #define all(x)             x.begin(), x.end()
 #define rall(x)            x.rbegin(), x.rend()
 #define el                 '\n'
@@ -30,6 +31,7 @@ template <typename T, int N> using arr = array<T, N>;
 #define No                 cout << "No" << el
 #define YES                cout << "YES" << el
 #define NO                 cout << "NO" << el
+#define MAYBE              cout << "MAYBE" << el
 #define eps                (1e-10)
 #define Equals(a, b)       (fabs((a) - (b)) < eps)
 #define debug(x)           cerr << #x << "=" << x << el
