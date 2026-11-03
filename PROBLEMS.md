@@ -76,11 +76,13 @@
 | `abc241b` | Pasta                                | 連想配列               |     AC     |   42   |             [リンク](./adt/adt_all_20261027_1/d_pasta.cpp)              |
 | `abc241d` | Sequence Query                       | 二分探索               |     AC     |  1177  |         [リンク](./adt/adt_all_20261030_1/g_sequence_query.cpp)         |
 | `abc244b` | Go Straight and Turn Right           | 実装                   |     AC     |   30   |   [リンク](./adt/adt_all_20261022_1/c_go_straight_and_turn_right.cpp)   |
+| `abc244c` | Yamanote Line Game                   | 実装                   |     AC     |  165   |       [リンク](./adt/adt_all_20261102_1/f_yamanote_line_game.cpp)       |
 | `abc249b` | Perfect String                       | 連想配列               |     AC     |   47   |         [リンク](./adt/adt_all_20261009_1/c_perfect_string.cpp)         |
 | `abc249c` | Just K                               | ビット全探索           |     UP     |  528   |             [リンク](./adt/adt_all_20261005_2/f_just_k.cpp)             |
 | `abc249d` | Index Trio                           | 組み合わせ・数学       |     UP     |  983   |           [リンク](./adt/adt_all_20261022_1/g_index_trio.cpp)           |
 | `abc250c` | Adjacent Swaps                       | 実装・連想配列         |     AC     |  517   |         [リンク](./adt/adt_all_20261021_2/f_adjacent_swaps.cpp)         |
 | `abc251a` | Six Character                        | 実装                   |     AC     |   9    |         [リンク](./adt/adt_all_20261027_1/a_six_characters.cpp)         |
+| `abc252e` | Road Reduction                       |                        |            |  1294  |         [リンク](./adt/adt_all_20261102_1/h_road_reduction.cpp)         |
 | `abc253a` | Median?                              | 実装                   |     AC     |   17   |             [リンク](./adt/adt_all_20261022_1/b_median.cpp)             |
 | `abc254a` | Last Two Digits                      | 実装                   |     AC     |   7    |        [リンク](./adt/adt_all_20261012_1/a_last_two_digits.cpp)         |
 | `abc255c` | ±1 Operation 1                       | 二分探索・数学         |     UP     |  574   |         [リンク](./adt/adt_all_20260928_1/f_1_operation_1.cpp)          |
@@ -92,6 +94,7 @@
 | `abc261a` | Intersection                         | 実装                   |     AC     |   51   |          [リンク](./adt/adt_all_20261006_1/a_intersection.cpp)          |
 | `abc262b` | Triangle (Easier)                    | グラフ                 |     AC     |  220   |        [リンク](./adt/adt_all_20261007_2/c_triangle_easier.cpp)         |
 | `abc265b` | Explore                              | 配列                   |     AC     |  152   |             [リンク](./adt/adt_all_20261001_1/c_explore.py)             |
+| `abc267a` | Saturday                             | 実装                   |     AC     |   13   |            [リンク](./adt/adt_all_20261102_1/b_saturday.cpp)            |
 | `abc267d` | Index x A(Not continuous ver.)       | 2DDP                   |     UP     |  864   |     [リンク](./adt/adt_all_20261008_2/g_index_a_not_continuous.cpp)     |
 | `abc268b` | Prefix?                              | 文字列                 |     AC     |   26   |             [リンク](./adt/adt_all_20261029_1/c_prefix.cpp)             |
 | `abc270c` | Simple path                          | グラフ・木構造         |     AC     |  625   |          [リンク](./adt/adt_all_20261019_1/e_simple_path.cpp)           |
@@ -119,6 +122,7 @@
 | `abc298c` | Cards Query Problem                  | 連想配列               |     AC     |  448   |      [リンク](./adt/adt_all_20261002_2/f_cards_query_problem.cpp)       |
 | `abc299c` | Dango                                | 文字列                 |     AC     |  191   |             [リンク](./adt/adt_all_20261023_1/e_dango.cpp)              |
 | `abc304a` | First Player                         | 配列                   |     AC     |   -    |          [リンク](./adt/adt_all_20261008_2/b_first_player.cpp)          |
+| `abc306a` | Echo                                 | 実装                   |     AC     |   0    |              [リンク](./adt/adt_all_20261102_1/a_echo.cpp)              |
 | `abc306c` | Centers                              | 実装・配列             |     AC     |  159   |            [リンク](./adt/adt_all_20261001_1/f_centers.cpp)             |
 | `abc307b` | racecar                              | 全探索・文字列         |     AC     |   70   |            [リンク](./adt/adt_all_20261002_2/d_racecar.cpp)             |
 | `abc309a` | Nine                                 | 実装                   |     AC     |   22   |              [リンク](./adt/adt_all_20261013_1/a_nine.cpp)              |
@@ -230,6 +234,7 @@
 | `abc448a` | chmin                                | 実装                   |     AC     |   13   |             [リンク](./adt/adt_all_20261016_1/b_chmin.cpp)              |
 | `abc448d` | Integer-duplicated Path              | 深さ優先探索           |     UP     |  638   |    [リンク](./adt/adt_all_20261009_1/g_integer_duplicated_path.cpp)     |
 | `abc449a` | π                                    | 実装                   |     AC     |   30   |               [リンク](./adt/adt_all_20261023_1/b_π.cpp)                |
+| `abc449d` | Make Target 2                        |                        |            |  927   |         [リンク](./adt/adt_all_20261102_1/g_make_target_2.cpp)          |
 | `abc450b` | Split Ticketing                      | 考察                   |     AC     |  114   |        [リンク](./adt/adt_all_20261022_1/d_split_ticketing.cpp)         |
 | `abc451b` | Personnel Change                     | 実装                   |     AC     |   36   |        [リンク](./adt/adt_all_20261008_1/c_personnel_change.cpp)        |
 | `abc452b` | Draw Frame                           | 実装                   |     UP     |   25   |           [リンク](./adt/adt_all_20261026_1/d_draw_frame.cpp)           |
@@ -247,6 +252,7 @@
 | `abc469a` | Train Car                            | 実装                   |     UP     |   11   |           [リンク](./adt/adt_all_20261020_1/b_train_car.cpp)            |
 | `abc469b` | Isolated Seats                       | 実装                   |     AC     |   35   |         [リンク](./adt/adt_all_20260928_1/d_isolated_seats.cpp)         |
 | `abc470a` | Fizz                                 | 実装                   |     AC     |   12   |              [リンク](./adt/adt_all_20261013_1/b_fizz.cpp)              |
+| `abc470b` | Monocolor                            | 考察                   |     AC     |   29   |           [リンク](./adt/adt_all_20261102_1/c_monocolor.cpp)            |
 | `abc471c` | Cookies and Greedy Takahashi         | 連結リスト             |     UP     |  301   |       [リンク](./adt/adt_all_20261006_2/f_cookies_and_greedy.cpp)       |
 | `abc471d` | Chargers                             | 考察                   |     UP     |  570   |                 [リンク](./renshu/abc471d_chargers.cpp)                 |
 | `abc473c` | Change Schools                       | 連想配列               |     AC     |  120   |         [リンク](./adt/adt_all_20261002_2/e_change_schools.cpp)         |
@@ -373,12 +379,16 @@
 | A46 | Heuristic 1                 | -                        |     AC     |  3/9   |         [リンク](./tessoku/a46_heuristic_1.cpp)         |
 | A49 | Heuristic 2                 | -                        |            |  6/9   |                                                         |
 | A50 | 山型足し算                  | -                        |            |  6/9   |                                                         |
-| A51 | Stack                       | データ構造               |            |  2/9   |            [リンク](./tessoku/a51_stack.cpp)            |
-| A52 | Queue                       | データ構造               |            |  2/9   |            [リンク](./tessoku/a52_queue.cpp)            |
-| A53 | Priority Queue              | データ構造               |            |  2/9   |       [リンク](./tessoku/a53_priority_queue.cpp)        |
-| A54 | Map                         | 連想配列                 |            |  2/9   |             [リンク](./tessoku/a54_map.cpp)             |
-| A55 | Set                         | データ構造               |            |  4/9   |             [リンク](./tessoku/a55_set.cpp)             |
-| A56 | String Hash                 | 文字列                   |            |  5/9   |         [リンク](./tessoku/a56_string_hash.cpp)         |
+| A51 | Stack                       | データ構造               |     AC     |  2/9   |            [リンク](./tessoku/a51_stack.cpp)            |
+| A52 | Queue                       | データ構造               |     AC     |  2/9   |            [リンク](./tessoku/a52_queue.cpp)            |
+| A53 | Priority Queue              | データ構造               |     AC     |  2/9   |       [リンク](./tessoku/a53_priority_queue.cpp)        |
+| A54 | Map                         | 連想配列                 |     AC     |  2/9   |             [リンク](./tessoku/a54_map.cpp)             |
+| A55 | Set                         | データ構造               |     AC     |  4/9   |             [リンク](./tessoku/a55_set.cpp)             |
+| A56 | String Hash                 | 文字列                   |     AC     |  5/9   |         [リンク](./tessoku/a56_string_hash.cpp)         |
+| A57 | Doubling                    | 2DDP                     |     AC     |  5/9   |          [リンク](./tessoku/a57_doubling.cpp)           |
+| A58 | RMQ                         | セグメント木             |     AC     |  5/9   |             [リンク](./tessoku/a58_rmq.cpp)             |
+| A59 | RSQ                         | セグメント木             |     AC     |  5/9   |             [リンク](./tessoku/a59_rsq.cpp)             |
+| A60 | Stock Price                 | データ構造               |     AC     |  4/9   |         [リンク](./tessoku/a60_stock_price.cpp)         |
 | B01 | A+B Problem                 | 実装                     |     AC     |   -    |         [リンク](./tessoku/b01_a_b_problem.cpp)         |
 | B02 | Divisor Check               | 数学・全探索             |     AC     |   -    |        [リンク](./tessoku/b02_divisor_check.cpp)        |
 | B03 | Supermarket                 | 全探索                   |     AC     |   -    |         [リンク](./tessoku/b03_supermarket.cpp)         |
@@ -425,6 +435,9 @@
 | B54 | Counting Same Values        | 連想配列                 |     AC     |   -    |    [リンク](./tessoku/b54_counting_same_values.cpp)     |
 | B55 | Difference                  | データ構造               |     AC     |   -    |         [リンク](./tessoku/b55_difference.cpp)          |
 | B56 | Palindrome Queries          | 文字列                   |     AC     |   -    |     [リンク](./tessoku/b56_palindrome_queries.cpp)      |
+| B57 | Calculator                  | 2DDP                     |     AC     |   -    |         [リンク](./tessoku/b57_calculator.cpp)          |
+| B58 | Jumping                     | 1DDP・セグメント木       |     AC     |   -    |           [リンク](./tessoku/b58_jumping.cpp)           |
+| B59 | Number of Inversions        | セグメント木             |     AC     |   -    |    [リンク](./tessoku/b59_number_of_inversions.cpp)     |
 
 ## Others
 

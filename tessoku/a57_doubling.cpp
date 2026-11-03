@@ -55,4 +55,29 @@ int main() {
   cout << setprecision(13);
   int n, q;
   cin >> n >> q;
+  vector<int> A(n);
+  rep(i, 0, n) cin >> A[i];
+
+  // dp[i][j] := after day 2^i, the ant that started at j is at what?
+  vector<vector<int>> dp(30, vector<int>(n + 1));
+  for (int i = 1; i <= n; i++)
+    dp[0][i] = A[i - 1];
+
+  for (int i = 1; i < 30; i++)
+    for (int j = 1; j <= n; j++)
+      dp[i][j] = dp[i - 1][dp[i - 1][j]];
+
+  while (q--) {
+    int a, y;
+    cin >> a >> y;
+    int ans = a, day = 0;
+    while (y) {
+      if (y & 1)
+        ans = dp[day][ans];
+      y >>= 1;
+      day++;
+    }
+
+    cout << ans << el;
+  }
 }
