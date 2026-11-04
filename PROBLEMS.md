@@ -46,7 +46,7 @@
 | `abc160d` | Line++                               | 最短経路               |     UP     |  879   |                   [リンク](./renshu/abc160d_line.cpp)                   |
 | `abc171c` | One Quadrillion and One Dalmatians   | 数学                   |     UP     |  560   |         [リンク](./renshu/abc171c_one_quadrillion_and_one.cpp)          |
 | `abc189c` | Mandarin Orange                      | 全探索                 |     UP     |  565   |             [リンク](./renshu/abc189c_mandarin_orange.cpp)              |
-| `abc198c` | Compass Walking                      |                        |            |  413   |             [リンク](./renshu/abc198c_compass_walking.cpp)              |
+| `abc198c` | Compass Walking                      | 数学                   |     UP     |  413   |             [リンク](./renshu/abc198c_compass_walking.cpp)              |
 | `abc213b` | Booby Prize                          | 配列                   |     UP     |   26   |          [リンク](./adt/adt_all_20261006_2/d_booby_prize.cpp)           |
 | `abc214a` | Next Generation ABC                  | 実装                   |     AC     |   4    |       [リンク](./adt/adt_all_20261009_1/a_new_generation_abc.cpp)       |
 | `abc214b` | How Many                             | 全探索                 |     AC     |   53   |            [リンク](./adt/adt_all_20261001_2/c_how_many.py)             |
@@ -61,7 +61,7 @@
 | `abc224a` | Tires                                | 実装・文字列           |     AC     |   6    |             [リンク](./adt/adt_all_20261008_1/a_tires.cpp)              |
 | `abc225c` | Calendar Validator                   | 行列                   |     AC     |  326   |       [リンク](./adt/adt_all_20260928_1/e_calendar_validator.cpp)       |
 | `abc228b` | Takahashi's Secret                   | グラフ                 |     AC     |   83   |       [リンク](./adt/adt_all_20261013_1/d_takahashis_secret.cpp)        |
-| `abc228d` | Linear Probing                       |                        |            |  1035  |         [リンク](./adt/adt_all_20261006_1/g_linear_probing.cpp)         |
+| `abc228d` | Linear Probing                       | 二分探索               |     UP     |  1035  |         [リンク](./adt/adt_all_20261006_1/g_linear_probing.cpp)         |
 | `abc230b` | Triple Metre                         | 実装・文字列           |     AC     |   37   |          [リンク](./adt/adt_all_20261012_2/d_triple_metre.cpp)          |
 | `abc230c` | X drawing                            | 行列・数学             |     UP     |  566   |                [リンク](./renshu/abc230c_x_drawing.cpp)                 |
 | `abc232a` | QQ solver                            | 実装                   |     AC     |   9    |           [リンク](./adt/adt_all_20261006_2/a_qq_solver.cpp)            |
@@ -190,7 +190,7 @@
 | `abc387b` | 9x9 Sum                              | 考察                   |     UP     |   21   |            [リンク](./adt/adt_all_20261020_1/c_9x9_sum.cpp)             |
 | `abc388a` | ?UPC                                 | 実装                   |     AC     |   8    |              [リンク](./adt/adt_easy_20260925_1/b_upc.cpp)              |
 | `abc388c` | Various Kagamimochi                  | 尺取り法・二分探索     |     AC     |  211   |      [リンク](./adt/adt_all_20261009_1/f_various_kagamimochi.cpp)       |
-| `abc388e` | Simultaneous Kagamimochi             |                        |            |  1068  |    [リンク](./adt/adt_all_20261019_1/h_simultaneous_kagamimochi.cpp)    |
+| `abc388e` | Simultaneous Kagamimochi             | 考察                   |     UP     |  1068  |    [リンク](./adt/adt_all_20261019_1/h_simultaneous_kagamimochi.cpp)    |
 | `abc392a` | Shuffled Equation                    | 実装                   |     AC     |   11   |       [リンク](./adt/adt_all_20261103_1/b_shuffled_equation.cpp)        |
 | `abc392d` | Doubles                              | 全探索                 |     UP     |  579   |            [リンク](./adt/adt_all_20261020_1/g_doubles.cpp)             |
 | `abc393c` | Make it Simple                       | グラフ                 |     AC     |  188   |         [リンク](./adt/adt_all_20261014_2/f_make_it_simple.cpp)         |

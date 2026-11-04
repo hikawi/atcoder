@@ -59,27 +59,39 @@ int main() {
   cin.tie(0);
   cout << setprecision(3);
 
-  int r, x, y, c = 0;
+  ll r, x, y, c = 0;
   cin >> r >> x >> y;
 
-  double cx = 0, cy = 0, rd = r * r;
-  while (distsq(cx, cy, x, y) > 4 * rd) {
-    double dx = x - cx, dy = y - cy;
-    double len = sqrt(dx * dx + dy * dy);
-    if (len) {
-      dx /= len;
-      dy /= len;
-      dx *= r;
-      dy *= r;
-    }
-    cx += dx;
-    cy += dy;
-    // cout << cx << "," << cy << el;
+  double cx = 0, cy = 0;
+  double dx = x, dy = y, dlen = sqrt(x * x + y * y);
+  dx /= dlen;
+  dy /= dlen;
+  dx *= r;
+  dy *= r;
+
+  auto dist = [&](double cx, double cy) {
+    double a = (x - cx) * (x - cx) + (y - cy) * (y - cy);
+    return sqrt(a);
+  };
+
+  while (1) {
+    double nx = cx + dx, ny = cy + dy;
+    if (dist(nx, ny) < 2 * r)
+      break;
+    cx = nx;
+    cy = ny;
     c++;
   }
 
-  if (!Equals(cx, x) || !Equals(cy, y)) {
-    cout << c + 2 << el;
-  } else
-    cout << c << el;
+  if (Equals(fmod(dist(cx, cy), r), 0)) {
+    c += round(dist(cx, cy) / r);
+  } else if (Equals(dist(cx, cy), r)) {
+    c++;
+  } else if (dist(cx, cy) < 2 * r) {
+    c += 2;
+  } else {
+    c += 3;
+  }
+
+  cout << c << el;
 }

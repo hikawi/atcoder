@@ -1,5 +1,6 @@
 #include <algorithm>
 #include <array>
+#include <deque>
 #include <iomanip>
 #include <iostream>
 #include <map>
@@ -54,31 +55,20 @@ int main() {
 
   int n;
   cin >> n;
+  deque<ll> Q;
   vector<ll> A(n);
-  rep(i, 0, n) cin >> A[i];
-  vector<int> C(n);
-  ll c = 0;
-
-  int l = 0, r = 1;
-  while (r < n) {
-    // cout << l << "," << r << el;
-    if (r <= l) {
-      r++;
-      continue;
-    }
-    if (C[l]) {
-      l++;
-      continue;
-    }
-    if (A[r] / 2 >= A[l]) {
-      c++;
-      l++;
-      C[r++] = 1;
-      continue;
-    } else {
-      r++;
-    }
+  rep(i, 0, n) {
+    cin >> A[i];
+    if (i < n / 2)
+      Q.push_back(A[i]);
   }
 
+  ll c = 0;
+  rep(i, n / 2, n) {
+    if (Q.front() * 2 <= A[i]) {
+      Q.pop_front();
+      c++;
+    }
+  }
   cout << c << el;
 }
