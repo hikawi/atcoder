@@ -1,4 +1,6 @@
 // Source: https://github.com/maspypy/library/blob/main/my_template.hpp
+// 主なきMaspyよ、夢の杖のもと、我の力になれ。
+// いづれにか、かのおのづからの小さき分のやうにならまほしかる。
 #include <cassert>
 #if defined(USE_PCH)
 #include <my_template_compiled.hpp>
