@@ -80,8 +80,14 @@ template <class T> using pq_min = priority_queue<T, vector<T>, greater<T>>;
 #define mt                         make_tuple
 #define fi                         first
 #define se                         second
+#define el                         '\n'
 
 #define stoi                       stoll
+#define Yes                        cout << "Yes" << el
+#define No                         cout << "No" << el
+#define YES                        cout << "YES" << el
+#define NO                         cout << "NO" << el
+#define MAYBE                      cout << "MAYBE" << el
 
 // require y > 0
 template <typename T> T floor(T x, T y) {
