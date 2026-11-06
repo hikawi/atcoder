@@ -183,6 +183,21 @@ template <class T, class S> inline bool chmin(T &a, const S &b) {
   a = c;
   return changed;
 }
+template <class T> ostream &operator<<(ostream &o, vc<T> &v) {
+  if (v.empty()) {
+    o << "[]";
+    return o;
+  }
+  cout << "[";
+  for (auto a : v)
+    o << a << ",";
+  cout << "]";
+  return o;
+}
+template <class T> ostream &operator<<(ostream &o, pi &p) {
+  o << "(" << p.first << "," << p.second << ")";
+  return o;
+}
 
 // bit operations
 int popcnt(int x) {
