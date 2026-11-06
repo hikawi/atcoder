@@ -17,7 +17,7 @@
 
 ## コンテスト
 
-レート: [![レートバッジ](https://cp-logo.vercel.app/atcoder/hikawi)]
+レート: [![レートバッジ](https://badges.riever.dev/atcoder/hikawi.svg)]
 
 目標：`1200` (水色)
 
