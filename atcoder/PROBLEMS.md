@@ -66,6 +66,7 @@
 | `abc230b` | Triple Metre                         | 実装・文字列           |     AC     |   37   |          [リンク](./adt/adt_all_20261012_2/d_triple_metre.cpp)          |
 | `abc230c` | X drawing                            | 行列・数学             |     UP     |  566   |                [リンク](./renshu/abc230c_x_drawing.cpp)                 |
 | `abc232a` | QQ solver                            | 実装                   |     AC     |   9    |           [リンク](./adt/adt_all_20261006_2/a_qq_solver.cpp)            |
+| `abc232c` | Graph Isomorphism                    | 全探索                 |     AC     |  685   |            [リンク](./renshu/abc232c_graph_isomorphism.cpp)             |
 | `abc234e` | Arithmetic Number                    | 二分探索               |     UP     |  899   |            [リンク](./renshu/abc234e_arithmetic_number.cpp)             |
 | `abc235c` | The Kth Time Query                   | 連想配列               |     AC     |  249   |       [リンク](./adt/adt_all_20261001_2/e_the_kth_time_query.py)        |
 | `abc236b` | Who is missing?                      | 文字列・実装           |     AC     |   29   |         [リンク](./adt/adt_all_20261008_2/d_who_is_missing.cpp)         |
@@ -79,6 +80,7 @@
 | `abc241d` | Sequence Query                       | 二分探索               |     AC     |  1177  |         [リンク](./adt/adt_all_20261030_1/g_sequence_query.cpp)         |
 | `abc244b` | Go Straight and Turn Right           | 実装                   |     AC     |   30   |   [リンク](./adt/adt_all_20261022_1/c_go_straight_and_turn_right.cpp)   |
 | `abc244c` | Yamanote Line Game                   | 実装                   |     AC     |  165   |       [リンク](./adt/adt_all_20261102_1/f_yamanote_line_game.cpp)       |
+| `abc248b` | Slimes                               | 実装                   |     AC     |   41   |                  [リンク](./renshu/abc248b_slimes.cpp)                  |
 | `abc249b` | Perfect String                       | 連想配列               |     AC     |   47   |         [リンク](./adt/adt_all_20261009_1/c_perfect_string.cpp)         |
 | `abc249c` | Just K                               | ビット全探索           |     UP     |  528   |             [リンク](./adt/adt_all_20261005_2/f_just_k.cpp)             |
 | `abc249d` | Index Trio                           | 組み合わせ・数学       |     UP     |  983   |           [リンク](./adt/adt_all_20261022_1/g_index_trio.cpp)           |
@@ -102,12 +104,14 @@
 | `abc267a` | Saturday                             | 実装                   |     AC     |   13   |            [リンク](./adt/adt_all_20261102_1/b_saturday.cpp)            |
 | `abc267d` | Index x A(Not continuous ver.)       | 2DDP                   |     UP     |  864   |     [リンク](./adt/adt_all_20261008_2/g_index_a_not_continuous.cpp)     |
 | `abc268b` | Prefix?                              | 文字列                 |     AC     |   26   |             [リンク](./adt/adt_all_20261029_1/c_prefix.cpp)             |
+| `abc269c` | Submask                              | ビット全探索           |     AC     |  384   |                 [リンク](./renshu/abc269c_submask.cpp)                  |
 | `abc270c` | Simple path                          | グラフ・木構造         |     AC     |  625   |          [リンク](./adt/adt_all_20261019_1/e_simple_path.cpp)           |
 | `abc271a` | 484588                               | 実装                   |     AC     |   28   |             [リンク](./adt/adt_all_20261105_1/a_484588.cpp)             |
 | `abc271b` | Maintain Multiple Sequences          | 配列                   |     AC     |   97   |  [リンク](./adt/adt_all_20261013_2/d_maintain_multiple_sequences.cpp)   |
 | `abc272d` | Root M Leaper                        | 行列・幅優先探索       |     UP     |  804   |         [リンク](./adt/adt_all_20261001_1/g_root_m_leaper.cpp)          |
 | `abc274b` | Line Sensor                          | 行列                   |     AC     |   48   |          [リンク](./adt/adt_all_20261005_2/d_line_sensor.cpp)           |
 | `abc275d` | Yet Another Recursive Function       | 再帰                   |     AC     |  606   | [リンク](./adt/adt_all_20261029_1/g_yet_another_recursive_function.cpp) |
+| `abc277a` | ^{-1}                                | 実装                   |     AC     |   11   |                    [リンク](./renshu/abc277a_-1.cpp)                    |
 | `abc277b` | Playing Cards Validation             | 実装                   |     AC     |   60   |    [リンク](./adt/adt_all_20261012_1/d_playing_cards_validation.cpp)    |
 | `abc278b` | Misjudge the Time                    | 実装                   |     AC     |  123   |       [リンク](./adt/adt_all_20261012_1/c_misjudge_the_time.cpp)        |
 | `abc279a` | wwwvvvvvv                            | 実装                   |     AC     |   7    |           [リンク](./adt/adt_all_20261016_1/a_wwwvvvvvv.cpp)            |
@@ -214,6 +218,7 @@
 | `abc402c` | Dislike Foods                        | 連想配列               |     AC     |  337   |         [リンク](./adt/adt_all_20261029_1/f_dislike_foods.cpp)          |
 | `abc403b` | Four Hidden                          | 全探索                 |     AC     |   74   |          [リンク](./adt/adt_all_20261104_1/c_four_hidden.cpp)           |
 | `abc404b` | Grid Rotation                        | 行列・考察             |     AC     |  181   |         [リンク](./adt/adt_all_20261030_1/d_grid_rotation.cpp)          |
+| `abc405b` | Not All                              | 実装                   |     AC     |   50   |                 [リンク](./renshu/abc405b_not_all.cpp)                  |
 | `abc405c` | Sum of Product                       | 累積和                 |     AC     |  102   |         [リンク](./adt/adt_all_20261005_2/e_sum_of_product.cpp)         |
 | `abc406b` | Product Calculator                   | 数学                   |     UP     |  177   |       [リンク](./adt/adt_all_20261021_2/d_product_calculator.cpp)       |
 | `abc407a` | Approximation                        | 実装                   |     UP     |  587   |         [リンク](./adt/adt_all_20261026_1/a_approximation.cpp)          |

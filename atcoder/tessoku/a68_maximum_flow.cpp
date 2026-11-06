@@ -177,6 +177,21 @@ template <class T, class S> inline bool chmin(T &a, const S &b) {
   a = c;
   return changed;
 }
+template <class T> ostream &operator<<(ostream &o, vc<T> &v) {
+  if (v.empty()) {
+    o << "[]";
+    return o;
+  }
+  cout << "[";
+  for (auto a : v)
+    o << a << ",";
+  cout << "]";
+  return o;
+}
+template <class T> ostream &operator<<(ostream &o, pi &p) {
+  o << "(" << p.first << "," << p.second << ")";
+  return o;
+}
 
 // bit operations
 int popcnt(int x) {
@@ -362,19 +377,70 @@ constexpr i128 gcd(i128 a, i128 b) {
 }
 #endif // MASPY_TEMPLATE_BODY
 
+struct edge {
+  int to;
+  int cap;
+  int rev;
+};
+
+struct maxflow {
+  int n;
+  vc<char> used;
+  vvc<edge> adj;
+
+  maxflow(int n) : n(n), adj(vvc<edge>(n + 1)), used(vc<char>(n + 1)) {
+  }
+
+  void unite(int u, int v, int c) {
+    int a = adj[v].size();
+    int b = adj[u].size();
+    adj[u].push_back({v, c, a});
+    adj[v].push_back({u, 0, b});
+  }
+
+  int dfs(int cur, int goal, int flow = infty<int>) {
+    if (cur == goal)
+      return flow;
+    used[cur] = 1;
+    for (auto &edge : adj[cur]) {
+      if (edge.cap <= 0 || used[edge.to])
+        continue;
+      int F = dfs(edge.to, goal, min(flow, edge.cap));
+      if (F >= 1) {
+        edge.cap -= F;
+        adj[edge.to][edge.rev].cap += F;
+        return F;
+      }
+    }
+    return 0;
+  }
+
+  int max_flow(int s, int g) {
+    int ans = 0;
+    while (1) {
+      fill(all(used), 0);
+      int f = dfs(s, g);
+      if (!f)
+        break;
+      ans += f;
+    }
+    return ans;
+  }
+};
+
 int main() {
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout << setprecision(13);
   int n, m;
   cin >> n >> m;
-  vector<vector<pi>> adj(n + 1);
+  maxflow F(n);
   FOR(m) {
     int a, b, c;
     cin >> a >> b >> c;
-    adj[a].emplace_back(b, 0);
-    adj[b].emplace_back(a, c);
+    F.unite(a, b, c);
   }
 
+  cout << F.max_flow(1, n) << "\n";
   return 0;
 }
