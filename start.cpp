@@ -72,6 +72,7 @@ template <class T> using pq_min = priority_queue<T, vector<T>, greater<T>>;
 #define FOR_R(...)                 overload3(__VA_ARGS__, FOR3_R, FOR2_R, FOR1_R)(__VA_ARGS__)
 
 #define all(x)                     (x).begin(), (x).end()
+#define rall(x)                    (x).rbegin(), (x).rend()
 #define len(x)                     ll(x.size())
 #define elif                       else if
 
@@ -194,8 +195,19 @@ template <class T> ostream &operator<<(ostream &o, vc<T> &v) {
   cout << "]";
   return o;
 }
-template <class T> ostream &operator<<(ostream &o, pi &p) {
+ostream &operator<<(ostream &o, pi &p) {
   o << "(" << p.first << "," << p.second << ")";
+  return o;
+}
+template <class T> ostream &operator<<(ostream &o, set<T> &v) {
+  if (v.empty()) {
+    o << "{}";
+    return o;
+  }
+  o << "{";
+  for (auto it = v.begin(); it != v.end(); it++)
+    o << *it << ",";
+  o << "}";
   return o;
 }
 

@@ -28,3 +28,14 @@
 | 幾何学         | Geometric Theory              |
 | ゲーム         | Games                         |
 | 再帰           | Recursion                     |
+
+## CP31
+
+| ID      | 名前               | 種類   | ステータス | レート |
+| ------- | ------------------ | ------ | :--------: | :----: |
+| `1903A` | Halloumi Boxes     | 考察   |     AC     |  800   |
+| `1901A` | Line Trip          | 考察   |     AC     |  800   |
+| `1900A` | Cover in Water     | 考察   |     AC     |  800   |
+| `1899A` | Game with Integers | 考察   |     AC     |  800   |
+| `1896A` | Jagged Swaps       | 貪欲法 |     AC     |  800   |
+| `1890A` | Doremy's Paint 3   | 考察   |     AC     |  800   |
