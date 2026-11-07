@@ -423,6 +423,9 @@
 | A65 | Road to Promotion              | 木DP                     |     AC     |  4/9   |       [リンク](./tessoku/a65_road_to_promotion.cpp)        |
 | A66 | Connect Query                  | Union-Find               |     AC     |  3/9   |         [リンク](./tessoku/a66_connect_query.cpp)          |
 | A67 | MST                            | Union-Find・木構造       |     AC     |  5/9   |              [リンク](./tessoku/a67_mst.cpp)               |
+| A68 | Maximum Flow                   | フロー                   |     AC     |  6/9   |          [リンク](./tessoku/a68_maximum_flow.cpp)          |
+| A69 | Bipartite Matching             | グラフ                   |            |  6/9   |                                                            |
+| A70 | Lanterns                       | 最短経路                 |            |  5/9   |            [リンク](./tessoku/a70_lanterns.cpp)            |
 | B01 | A+B Problem                    | 実装                     |     AC     |   -    |          [リンク](./tessoku/b01_a_b_problem.cpp)           |
 | B02 | Divisor Check                  | 数学・全探索             |     AC     |   -    |         [リンク](./tessoku/b02_divisor_check.cpp)          |
 | B03 | Supermarket                    | 全探索                   |     AC     |   -    |          [リンク](./tessoku/b03_supermarket.cpp)           |
@@ -479,6 +482,8 @@
 | B65 | Road to Promotion Hard         | 木DP                     |     AC     |   -    |     [リンク](./tessoku/b65_road_to_promotion_hard.cpp)     |
 | B66 | Typhoon                        | Union-Find・クエリ処理   |     AC     |   -    |            [リンク](./tessoku/b66_typhoon.cpp)             |
 | B67 | Max MST                        | Union-Find               |     AC     |   -    |            [リンク](./tessoku/b67_max_mst.cpp)             |
+| B68 | ALGO Express                   |                          |            |   -    |                                                            |
+| B69 | Black Company 2                |                          |            |   -    |                                                            |
 
 ## Others
 

@@ -39,3 +39,5 @@
 | `1899A` | Game with Integers | 考察   |     AC     |  800   |
 | `1896A` | Jagged Swaps       | 貪欲法 |     AC     |  800   |
 | `1890A` | Doremy's Paint 3   | 考察   |     AC     |  800   |
+| `1913B` | Swap and Delete    | 貪欲法 |     AC     |  1000  |
+| `1883C` | Raspberries        | 考察   |     AC     |  1000  |
