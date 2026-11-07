@@ -315,6 +315,11 @@
 | `abc482c` | Band Count                           | 二分探索               |     AC     |  486   |                 [リンク](./abc/abc482/c_band_count.cpp)                 |
 | `abc482d` | Wannabe Zombie                       | 考察                   |     AC     |  766   |               [リンク](./abc/abc482/d_wannabe_zombie.cpp)               |
 | `abc482e` | Diameter Endpoint Colors             | 木構造・組み合わせ     |            |  1531  |          [リンク](./abc/abc482/e_diameter_endpoint_colors.cpp)          |
+| `abc483a` | Double-Sided Printing                | 実装                   |     AC     |   16   |           [リンク](./abc/abc483/a_double_sided_printing.cpp)            |
+| `abc483b` | Flip Card Stack                      | 実装                   |     AC     |   75   |              [リンク](./abc/abc483/b_flip_card_stack.cpp)               |
+| `abc483c` | Second Choice Election               | 実装・データ構造       |     AC     |  770   |           [リンク](./abc/abc483/c_second_choice_election.cpp)           |
+| `abc483d` | Glitchy Robot                        | 全探索・セグメント木   |     AC     |  965   |               [リンク](./abc/abc483/d_glitchy_robot.cpp)                |
+| `abc483e` | Typo Pairs                           |                        |            |  1473  |                 [リンク](./abc/abc483/e_typo_pairs.cpp)                 |
 
 ## ARC
 
